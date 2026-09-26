@@ -1,0 +1,960 @@
+[
+  {
+    "id": "w_58b22ca792db9e",
+    "title": "Love Letter",
+    "category": "映画",
+    "version": "1995年版",
+    "regions": [
+      "北海道・小樽市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_e9f16137d25dfe",
+    "title": "ユンヒへ",
+    "category": "映画",
+    "version": "2019年製作版",
+    "regions": [
+      "北海道・小樽市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_5621d6b120b214",
+    "title": "ドライブ・マイ・カー",
+    "category": "映画",
+    "version": "2021年版",
+    "regions": [
+      "北海道・赤平市",
+      "広島県・呉市"
+    ],
+    "spot_count": 3
+  },
+  {
+    "id": "w_bdee7837dcb857",
+    "title": "ぼくらの7日間戦争",
+    "category": "アニメ",
+    "version": "劇場アニメ",
+    "regions": [
+      "北海道・赤平市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_1bec86c1821224",
+    "title": "風のガーデン",
+    "category": "ドラマ",
+    "version": "2008年版",
+    "regions": [
+      "北海道・富良野市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_c97248861562c9",
+    "title": "北の国から",
+    "category": "ドラマ",
+    "version": "シリーズ",
+    "regions": [
+      "北海道・富良野市"
+    ],
+    "spot_count": 2
+  },
+  {
+    "id": "w_270d3563757a63",
+    "title": "北の国から",
+    "category": "ドラマ",
+    "version": "2002 遺言",
+    "regions": [
+      "北海道・富良野市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_f86627fb84bcd9",
+    "title": "北のカナリアたち",
+    "category": "映画",
+    "version": "2012年版",
+    "regions": [
+      "北海道・礼文町"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_1ed934a8c61757",
+    "title": "いとみち",
+    "category": "映画",
+    "version": "2021年版",
+    "regions": [
+      "青森県・弘前市",
+      "青森県・板柳町"
+    ],
+    "spot_count": 3
+  },
+  {
+    "id": "w_aea10d2ded4091",
+    "title": "あまちゃん",
+    "category": "ドラマ",
+    "version": "2013年版",
+    "regions": [
+      "岩手県・久慈市",
+      "岩手県・洋野町"
+    ],
+    "spot_count": 9
+  },
+  {
+    "id": "w_799498d47b6eb6",
+    "title": "ゴールデンスランバー",
+    "category": "映画",
+    "version": "2010年版",
+    "regions": [
+      "宮城県・仙台市"
+    ],
+    "spot_count": 4
+  },
+  {
+    "id": "w_6b1c63d6c6cb6e",
+    "title": "たそがれ清兵衛",
+    "category": "映画",
+    "version": "2002年版",
+    "regions": [
+      "秋田県・仙北市"
+    ],
+    "spot_count": 2
+  },
+  {
+    "id": "w_19ad78c17dfff6",
+    "title": "男はつらいよ 葛飾立志篇",
+    "category": "映画",
+    "version": "1975年版",
+    "regions": [
+      "山形県・寒河江市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_b620bd6dfb2b3f",
+    "title": "おもひでぽろぽろ",
+    "category": "アニメ",
+    "version": "劇場アニメ",
+    "regions": [
+      "山形県・山形市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_527037a537e295",
+    "title": "小川の辺",
+    "category": "映画",
+    "version": "2011年版",
+    "regions": [
+      "山形県・中山町"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_e695b740b7afbe",
+    "title": "空人（くうじん）",
+    "category": "映画",
+    "version": "2015年版",
+    "regions": [
+      "山形県・天童市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_4edbce9f973041",
+    "title": "エール",
+    "category": "ドラマ",
+    "version": "2020年版",
+    "regions": [
+      "福島県・郡山市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_18b82a8135989a",
+    "title": "坊っちゃん",
+    "category": "ドラマ",
+    "version": "2016年版",
+    "regions": [
+      "福島県・郡山市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_fe1d58fbde845a",
+    "title": "スパイの妻",
+    "category": "映画",
+    "version": "2020年劇場版",
+    "regions": [
+      "茨城県・牛久市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_e4a5f9f688b36c",
+    "title": "青天を衝け",
+    "category": "ドラマ",
+    "version": "2021年版",
+    "regions": [
+      "茨城県・水戸市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_c7c2b6ed314001",
+    "title": "永遠の0",
+    "category": "映画",
+    "version": "2013年版",
+    "regions": [
+      "栃木県・鹿沼市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_b6baa6c2e821ce",
+    "title": "少年H",
+    "category": "映画",
+    "version": "2013年版",
+    "regions": [
+      "栃木県・鹿沼市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_19a5085e2bf441",
+    "title": "秒速5センチメートル",
+    "category": "アニメ",
+    "version": "2007年劇場アニメ",
+    "regions": [
+      "栃木県・小山市",
+      "栃木県・栃木市",
+      "鹿児島県・中種子町"
+    ],
+    "spot_count": 4
+  },
+  {
+    "id": "w_58400b8a7b1dea",
+    "title": "銀魂2 掟は破るためにこそある",
+    "category": "映画",
+    "version": "2018年版",
+    "regions": [
+      "栃木県・足利市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_b0b4f44d5a0d4e",
+    "title": "宇宙よりも遠い場所",
+    "category": "アニメ",
+    "version": "TVアニメ",
+    "regions": [
+      "群馬県・館林市"
+    ],
+    "spot_count": 2
+  },
+  {
+    "id": "w_77067bbf20dd8f",
+    "title": "今夜、ロマンス劇場で",
+    "category": "映画",
+    "version": "2018年版",
+    "regions": [
+      "群馬県・桐生市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_57c71c259d1a53",
+    "title": "らき☆すた",
+    "category": "アニメ",
+    "version": "TVアニメ",
+    "regions": [
+      "埼玉県・久喜市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_c3e79646888380",
+    "title": "老後の資金がありません！",
+    "category": "映画",
+    "version": "実写映画",
+    "regions": [
+      "千葉県・一宮町"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_4dab725aa945f1",
+    "title": "浦安鉄筋家族",
+    "category": "ドラマ",
+    "version": "2020年版",
+    "regions": [
+      "千葉県・浦安市"
+    ],
+    "spot_count": 5
+  },
+  {
+    "id": "w_67ad23ded4ac13",
+    "title": "零落",
+    "category": "映画",
+    "version": "実写映画",
+    "regions": [
+      "千葉県・九十九里町"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_94ef1150bf8246",
+    "title": "君が落とした青空",
+    "category": "映画",
+    "version": "2022年版",
+    "regions": [
+      "千葉県・成田市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_19a58d90065234",
+    "title": "KAPPEI カッペイ",
+    "category": "映画",
+    "version": "実写映画",
+    "regions": [
+      "千葉県・千葉市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_29d7ac56bd1a7d",
+    "title": "TANG タング",
+    "category": "映画",
+    "version": "実写映画",
+    "regions": [
+      "千葉県・千葉市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_ca7c30a45c0ccf",
+    "title": "アンラッキーガール！",
+    "category": "ドラマ",
+    "version": "2021年版",
+    "regions": [
+      "千葉県・千葉市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_c8c1eef5b15615",
+    "title": "さかなのこ",
+    "category": "映画",
+    "version": "実写映画",
+    "regions": [
+      "千葉県・南房総市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_983193b166f8e3",
+    "title": "ぜんぶ、ボクのせい",
+    "category": "映画",
+    "version": "実写映画",
+    "regions": [
+      "千葉県・南房総市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_e1a48272cf20fe",
+    "title": "耳をすませば",
+    "category": "アニメ",
+    "version": "1995年劇場アニメ",
+    "regions": [
+      "東京都・多摩市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_0bb4ec728141a5",
+    "title": "ホットロード",
+    "category": "映画",
+    "version": "2014年版",
+    "regions": [
+      "神奈川県・藤沢市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_a0203d45553df7",
+    "title": "火の華",
+    "category": "映画",
+    "version": "実写映画",
+    "regions": [
+      "新潟県・新発田市"
+    ],
+    "spot_count": 4
+  },
+  {
+    "id": "w_a13d429c67a7ad",
+    "title": "十一人の賊軍",
+    "category": "映画",
+    "version": "2024年版",
+    "regions": [
+      "新潟県・新発田市"
+    ],
+    "spot_count": 2
+  },
+  {
+    "id": "w_40d80533b22538",
+    "title": "峠 最後のサムライ",
+    "category": "映画",
+    "version": "2022年版",
+    "regions": [
+      "新潟県・新発田市"
+    ],
+    "spot_count": 3
+  },
+  {
+    "id": "w_7da30e26bc0b29",
+    "title": "瞽女 GOZE",
+    "category": "映画",
+    "version": "2020年版",
+    "regions": [
+      "新潟県・新発田市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_6bc11183b70829",
+    "title": "おおかみこどもの雨と雪",
+    "category": "アニメ",
+    "version": "2012年劇場アニメ",
+    "regions": [
+      "富山県・上市町"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_395a92281c2f9a",
+    "title": "花咲くいろは",
+    "category": "アニメ",
+    "version": "TVアニメ",
+    "regions": [
+      "石川県・金沢市"
+    ],
+    "spot_count": 4
+  },
+  {
+    "id": "w_fd4dda5fde3401",
+    "title": "チア☆ダン",
+    "category": "ドラマ",
+    "version": "2018年TVドラマ",
+    "regions": [
+      "福井県・福井市"
+    ],
+    "spot_count": 2
+  },
+  {
+    "id": "w_2332ba4a9956a9",
+    "title": "ゆるキャン△",
+    "category": "アニメ",
+    "version": "第1期",
+    "regions": [
+      "山梨県・市川三郷町"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_654fe6dd97d492",
+    "title": "おひさま",
+    "category": "ドラマ",
+    "version": "2011年版",
+    "regions": [
+      "長野県・安曇野市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_260ac5bdef91d7",
+    "title": "サマーウォーズ",
+    "category": "アニメ",
+    "version": "2009年劇場アニメ",
+    "regions": [
+      "長野県・上田市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_34615c1734a950",
+    "title": "氷菓",
+    "category": "アニメ",
+    "version": "2012年TVアニメ",
+    "regions": [
+      "岐阜県・高山市"
+    ],
+    "spot_count": 13
+  },
+  {
+    "id": "w_acbf524039d3e2",
+    "title": "君の名は。",
+    "category": "アニメ",
+    "version": "2016年劇場アニメ",
+    "regions": [
+      "岐阜県・飛騨市"
+    ],
+    "spot_count": 2
+  },
+  {
+    "id": "w_f52cc2944adca3",
+    "title": "ゆるキャン△",
+    "category": "アニメ",
+    "version": "SEASON2",
+    "regions": [
+      "静岡県・浜松市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_f195b04b0427da",
+    "title": "負けヒロインが多すぎる！",
+    "category": "アニメ",
+    "version": "2024年TVアニメ",
+    "regions": [
+      "愛知県・新城市",
+      "愛知県・田原市",
+      "愛知県・豊橋市"
+    ],
+    "spot_count": 22
+  },
+  {
+    "id": "w_bba13d2d959a5a",
+    "title": "わたしの幸せな結婚",
+    "category": "映画",
+    "version": "2023年実写版",
+    "regions": [
+      "三重県・桑名市",
+      "三重県・津市"
+    ],
+    "spot_count": 2
+  },
+  {
+    "id": "w_b5bd6f96aad833",
+    "title": "るろうに剣心 京都大火編",
+    "category": "映画",
+    "version": "2014年版",
+    "regions": [
+      "滋賀県・近江八幡市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_fb41b868e0f278",
+    "title": "けいおん！",
+    "category": "アニメ",
+    "version": "TVアニメ",
+    "regions": [
+      "滋賀県・豊郷町"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_a271f53635db3a",
+    "title": "君の膵臓をたべたい",
+    "category": "映画",
+    "version": "2017年実写版",
+    "regions": [
+      "京都府・京都市",
+      "福岡県・太宰府市",
+      "福岡県・福岡市"
+    ],
+    "spot_count": 7
+  },
+  {
+    "id": "w_5e5c5d8896363f",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 完結編 第2章",
+    "category": "アニメ",
+    "version": "2025年劇場アニメ",
+    "regions": [
+      "大阪府・大阪市"
+    ],
+    "spot_count": 10
+  },
+  {
+    "id": "w_05b4dd137d91ff",
+    "title": "3月のライオン",
+    "category": "映画",
+    "version": "2017年実写版・前後編の別は未確認",
+    "regions": [
+      "兵庫県・姫路市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_31005b89877423",
+    "title": "ラストサムライ",
+    "category": "映画",
+    "version": "2003年版",
+    "regions": [
+      "兵庫県・姫路市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_c157f8af1fdf8c",
+    "title": "軍師官兵衛",
+    "category": "ドラマ",
+    "version": "2014年版",
+    "regions": [
+      "兵庫県・姫路市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_5f026e9b4eeb97",
+    "title": "本能寺ホテル",
+    "category": "映画",
+    "version": "2017年版",
+    "regions": [
+      "兵庫県・姫路市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_2377fa37a8aa6f",
+    "title": "かぞくわり",
+    "category": "映画",
+    "version": "実写映画",
+    "regions": [
+      "奈良県・香芝市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_7b0d0c154d81ee",
+    "title": "天使のいる図書館",
+    "category": "映画",
+    "version": "実写映画",
+    "regions": [
+      "奈良県・香芝市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_ddeeef2d11934b",
+    "title": "サマータイムレンダ",
+    "category": "アニメ",
+    "version": "2022年TVアニメ",
+    "regions": [
+      "和歌山県・和歌山市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_fca3c0ec7c5c9e",
+    "title": "宇崎ちゃんは遊びたい！",
+    "category": "アニメ",
+    "version": "2020年TVアニメ",
+    "regions": [
+      "鳥取県・岩美町",
+      "鳥取県・三朝町",
+      "鳥取県・倉吉市",
+      "鳥取県・鳥取市"
+    ],
+    "spot_count": 4
+  },
+  {
+    "id": "w_187519a9729659",
+    "title": "映画 ハイ☆スピード！ -Free! Starting Days-",
+    "category": "アニメ",
+    "version": "2015年劇場アニメ",
+    "regions": [
+      "鳥取県・岩美町"
+    ],
+    "spot_count": 4
+  },
+  {
+    "id": "w_152ed86367e880",
+    "title": "劇場版 Free! -Timeless Medley-",
+    "category": "アニメ",
+    "version": "2017年劇場版・絆/約束の別は未確認",
+    "regions": [
+      "鳥取県・岩美町",
+      "鳥取県・鳥取市"
+    ],
+    "spot_count": 5
+  },
+  {
+    "id": "w_b93af955e81755",
+    "title": "五十年目の俺たちの旅",
+    "category": "映画",
+    "version": "2026年版",
+    "regions": [
+      "鳥取県・琴浦町",
+      "鳥取県・米子市"
+    ],
+    "spot_count": 2
+  },
+  {
+    "id": "w_702d1ec1def205",
+    "title": "たたら侍",
+    "category": "映画",
+    "version": "2017年公開版",
+    "regions": [
+      "鳥取県・大山町"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_0442498397ef3e",
+    "title": "ルート29",
+    "category": "映画",
+    "version": "2024年版",
+    "regions": [
+      "鳥取県・鳥取市",
+      "鳥取県・南部町"
+    ],
+    "spot_count": 2
+  },
+  {
+    "id": "w_14f58310c1e868",
+    "title": "孤独のグルメ",
+    "category": "ドラマ",
+    "version": "Season8 第8話",
+    "regions": [
+      "鳥取県・鳥取市"
+    ],
+    "spot_count": 3
+  },
+  {
+    "id": "w_3e24c5b0c5aeff",
+    "title": "侍タイムスリッパー",
+    "category": "映画",
+    "version": "デラックス版",
+    "regions": [
+      "鳥取県・鳥取市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_12b91fb151a4eb",
+    "title": "男はつらいよ お帰り 寅さん",
+    "category": "映画",
+    "version": "2019年版",
+    "regions": [
+      "鳥取県・鳥取市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_c532666cd2fdd8",
+    "title": "北方謙三 水滸伝",
+    "category": "ドラマ",
+    "version": "2026年版",
+    "regions": [
+      "鳥取県・湯梨浜町"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_4a9f81863336da",
+    "title": "マンハント",
+    "category": "映画",
+    "version": "2017年製作版",
+    "regions": [
+      "鳥取県・日南町"
+    ],
+    "spot_count": 2
+  },
+  {
+    "id": "w_ea721891dab065",
+    "title": "青春の切れっ端たち",
+    "category": "映画",
+    "version": "2021年版",
+    "regions": [
+      "鳥取県・米子市"
+    ],
+    "spot_count": 2
+  },
+  {
+    "id": "w_29729b04a32daf",
+    "title": "砂の器",
+    "category": "ドラマ",
+    "version": "2019年フジテレビ版",
+    "regions": [
+      "島根県・益田市",
+      "島根県・奥出雲町",
+      "島根県・松江市",
+      "島根県・浜田市"
+    ],
+    "spot_count": 6
+  },
+  {
+    "id": "w_8a0076afdcf994",
+    "title": "VIVANT",
+    "category": "ドラマ",
+    "version": "2023年版",
+    "regions": [
+      "島根県・奥出雲町",
+      "島根県・松江市"
+    ],
+    "spot_count": 5
+  },
+  {
+    "id": "w_8c5ba04e49b6a6",
+    "title": "るろうに剣心",
+    "category": "映画",
+    "version": "2012年版",
+    "regions": [
+      "岡山県・倉敷市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_549e5dcc5507e8",
+    "title": "マイマイ新子と千年の魔法",
+    "category": "アニメ",
+    "version": "2009年劇場アニメ",
+    "regions": [
+      "山口県・防府市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_82408b66103bec",
+    "title": "奇跡の海",
+    "category": "映画",
+    "version": "版・公開年未確認",
+    "regions": [
+      "徳島県・阿南市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_06ef8d59ea82ad",
+    "title": "百年の時計",
+    "category": "映画",
+    "version": "2012年版",
+    "regions": [
+      "香川県・綾川町",
+      "香川県・宇多津町",
+      "香川県・琴平町",
+      "香川県・高松市",
+      "香川県・三木町",
+      "香川県・東かがわ市"
+    ],
+    "spot_count": 15
+  },
+  {
+    "id": "w_c9477d68a1f5fe",
+    "title": "世界の中心で、愛をさけぶ",
+    "category": "映画",
+    "version": "2004年実写版",
+    "regions": [
+      "香川県・高松市"
+    ],
+    "spot_count": 4
+  },
+  {
+    "id": "w_3ec6de3717fd21",
+    "title": "東京ラブストーリー",
+    "category": "ドラマ",
+    "version": "1991年版",
+    "regions": [
+      "愛媛県・松山市"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_3b3cdaf9bff7ce",
+    "title": "竜とそばかすの姫",
+    "category": "アニメ",
+    "version": "2021年劇場アニメ",
+    "regions": [
+      "高知県・いの町",
+      "高知県・越知町",
+      "高知県・高知市",
+      "高知県・仁淀川町"
+    ],
+    "spot_count": 8
+  },
+  {
+    "id": "w_ed8a2091f7d1b0",
+    "title": "君が踊る、夏",
+    "category": "映画",
+    "version": "実写映画",
+    "regions": [
+      "高知県・越知町"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_c96c6d96d4c0a9",
+    "title": "県庁おもてなし課",
+    "category": "映画",
+    "version": "実写映画",
+    "regions": [
+      "高知県・越知町"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_cde70fdf82d150",
+    "title": "ユーリ!!! on ICE",
+    "category": "アニメ",
+    "version": "2016年TVアニメ",
+    "regions": [
+      "佐賀県・唐津市"
+    ],
+    "spot_count": 2
+  },
+  {
+    "id": "w_6305e34a073c04",
+    "title": "色づく世界の明日から",
+    "category": "アニメ",
+    "version": "2018年TVアニメ",
+    "regions": [
+      "長崎県・長崎市"
+    ],
+    "spot_count": 3
+  },
+  {
+    "id": "w_df056e311cd472",
+    "title": "夏目友人帳",
+    "category": "アニメ",
+    "version": "TVアニメシリーズ",
+    "regions": [
+      "熊本県・人吉・球磨地域"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_79aaf802ebe374",
+    "title": "ナミヤ雑貨店の奇蹟",
+    "category": "映画",
+    "version": "2017年実写版",
+    "regions": [
+      "大分県・豊後高田市"
+    ],
+    "spot_count": 2
+  },
+  {
+    "id": "w_b08056b2f9b469",
+    "title": "天尊降臨ヒムカイザーTHE MOVIE それぞれの絆",
+    "category": "映画",
+    "version": "2023年版",
+    "regions": [
+      "宮崎県・門川町"
+    ],
+    "spot_count": 1
+  },
+  {
+    "id": "w_a656528c3afb5a",
+    "title": "ちゅらさん",
+    "category": "ドラマ",
+    "version": "2001年版",
+    "regions": [
+      "沖縄県・那覇市"
+    ],
+    "spot_count": 3
+  }
+]
