@@ -6,7 +6,7 @@ import type { AniListMatch, AniListSuggestion, MatchedWork, VerifiedLeg, Verifie
 const FORMAT_LABELS: Record<string, string> = {
   TV: "TVアニメ",
   TV_SHORT: "短編アニメ",
-  MOVIE: "映画",
+  MOVIE: "劇場アニメ",
   OVA: "OVA",
   ONA: "配信アニメ",
   SPECIAL: "特別編",
@@ -17,9 +17,8 @@ function mediaTitle(media: AniListSuggestion) {
   return media.title.native || media.title.romaji || media.title.english || `AniList ID ${media.id}`;
 }
 
-export default function AniListLookup({ query, hasLocalMatches, onOpenMap }: {
+export default function AniListLookup({ query, onOpenMap }: {
   query: string;
-  hasLocalMatches: boolean;
   onOpenMap: (work: MatchedWork, spots: VerifiedSpot[], legs: VerifiedLeg[], region: string) => void;
 }) {
   const [suggestions, setSuggestions] = useState<AniListSuggestion[]>([]);
@@ -74,25 +73,25 @@ export default function AniListLookup({ query, hasLocalMatches, onOpenMap }: {
   }
 
   if ([...query.trim()].length < 2) {
-    return <p className="research-hint">アニメ名を2文字以上入力するとAniListから候補を取得します。地域名は下の聖地リストで検索できます。</p>;
+    return null;
   }
 
   const readySpots = match?.status === "ready" ? match.spots : [];
   const regions = [...new Set(readySpots.map((spot) => spot.region))];
 
   return (
-    <section className="anilist-panel" aria-label="AniListのアニメ検索候補">
-      <div className="anilist-heading"><strong>AniListのアニメ候補</strong><a href="https://anilist.co/" target="_blank" rel="noreferrer">候補提供: AniList</a></div>
+    <section className="anilist-panel" aria-label="アニメ作品の対応状況">
+      <div className="anilist-heading"><strong>ほかのアニメから探す</strong><a href="https://anilist.co/" target="_blank" rel="noreferrer">候補提供：AniList ↗</a></div>
       {searchPhase === "loading" ? <p className="anilist-status" role="status">アニメを検索しています…</p> : null}
       {searchPhase === "error" ? <p className="anilist-status error" role="alert">{searchError}</p> : null}
-      {searchPhase === "ready" && suggestions.length === 0 ? <p className="anilist-status">AniListに候補がありません。{hasLocalMatches ? "地域の検索結果は下に表示しています。" : "別の作品名で検索してください。"}</p> : null}
-      {suggestions.length > 0 ? <div className="anilist-options">{suggestions.map((media) => <button type="button" key={media.id} className={selected?.id === media.id ? "is-selected" : ""} aria-pressed={selected?.id === media.id} onClick={() => chooseMedia(media)}><span><strong>{mediaTitle(media)}</strong><small>{[media.format ? FORMAT_LABELS[media.format] ?? media.format : null, media.seasonYear ? `${media.seasonYear}年` : null, `AniList ID: ${media.id}`].filter(Boolean).join(" ・ ")}</small></span><span aria-hidden="true">→</span></button>)}</div> : null}
+      {searchPhase === "ready" && suggestions.length === 0 ? <p className="anilist-status">アニメの候補も見つかりませんでした。ひらがなや英語の表記でもお試しください。</p> : null}
+      {suggestions.length > 0 ? <div className="anilist-options">{suggestions.map((media) => <button type="button" key={media.id} className={selected?.id === media.id ? "is-selected" : ""} aria-pressed={selected?.id === media.id} onClick={() => chooseMedia(media)}><span><strong>{mediaTitle(media)}</strong><small>{[media.format ? FORMAT_LABELS[media.format] ?? media.format : null, media.seasonYear ? `${media.seasonYear}年` : null].filter(Boolean).join(" ・ ")}</small></span><span aria-hidden="true">→</span></button>)}</div> : null}
       {selected ? <div className="anilist-match" aria-live="polite">
-        {matchPhase === "loading" ? <p>「{mediaTitle(selected)}」をアプリ内DBと照合しています…</p> : null}
-        {matchPhase === "error" ? <p className="match-warning">作品DBとの照合に失敗しました。再度候補を選んでください。</p> : null}
-        {match?.status === "unregistered" ? <p className="match-warning">このAniList IDに対応する作品は、まだアプリの作品DBに登録されていません。地域・聖地マップには進めません。</p> : null}
-        {match?.status === "unverified" ? <p className="match-warning">「{match.work.title}」は作品DBに登録されていますが、座標と訪問条件を確認済みの聖地がありません。地域・聖地マップには進めません。</p> : null}
-        {match?.status === "ready" ? <div className="anilist-ready"><strong>{match.work.title}：確認済み聖地 {readySpots.length}件</strong><p>巡る地域を選んでください。根拠のある移動区間が登録された地点では、実データのコースも作成できます。</p><div className="anilist-regions">{regions.map((region) => <button type="button" key={region} className={selectedRegion === region ? "is-selected" : ""} aria-pressed={selectedRegion === region} onClick={() => setSelectedRegion(region)}>{region}</button>)}</div><button type="button" className="primary-button" disabled={!selectedRegion} onClick={() => onOpenMap(match.work, readySpots, match.legs, selectedRegion)}>聖地マップへ進む →</button></div> : null}
+        {matchPhase === "loading" ? <p>「{mediaTitle(selected)}」の聖地情報を探しています…</p> : null}
+        {matchPhase === "error" ? <p className="match-warning">聖地の掲載状況を確認できませんでした。もう一度選んでください。</p> : null}
+        {match?.status === "unregistered" ? <p className="match-warning">この作品の聖地は、まだ掲載していません。</p> : null}
+        {match?.status === "unverified" ? <p className="match-warning">「{match.work.title}」の聖地マップは準備中です。</p> : null}
+        {match?.status === "ready" ? <div className="anilist-ready"><strong>{match.work.title}：聖地 {readySpots.length}件</strong><p>巡る地域を選んでください。</p><div className="anilist-regions">{regions.map((region) => <button type="button" key={region} className={selectedRegion === region ? "is-selected" : ""} aria-pressed={selectedRegion === region} onClick={() => setSelectedRegion(region)}>{region}</button>)}</div><button type="button" className="primary-button" disabled={!selectedRegion} onClick={() => onOpenMap(match.work, readySpots, match.legs, selectedRegion)}>聖地マップへ進む →</button></div> : null}
       </div> : null}
     </section>
   );

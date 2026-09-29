@@ -16,16 +16,16 @@ export async function GET(request: Request) {
     const works = await worksResponse.json() as (MatchedWork & { category: string | null })[];
     const spots = await spotsResponse.json() as Pick<VerifiedSpot, "id" | "work_id" | "region">[];
     if (!Array.isArray(works) || !Array.isArray(spots)) throw new Error("Invalid DB response");
-    const regionsByWork = new Map<string, Set<string>>();
+    const regionsByWork = new Map<string, Record<string, number>>();
     for (const spot of spots) {
       if (!spot.work_id || !spot.region) continue;
-      const regions = regionsByWork.get(spot.work_id) ?? new Set<string>();
-      regions.add(spot.region);
-      regionsByWork.set(spot.work_id, regions);
+      const counts = regionsByWork.get(spot.work_id) ?? {};
+      counts[spot.region] = (counts[spot.region] ?? 0) + 1;
+      regionsByWork.set(spot.work_id, counts);
     }
     const normalized = query.normalize("NFKC").toLocaleLowerCase("ja-JP").replace(/\s+/g, "");
     const published = works.filter((work) => regionsByWork.has(work.id)).map((work) => ({
-      ...work, regions: [...(regionsByWork.get(work.id) ?? [])],
+      ...work, regions: Object.keys(regionsByWork.get(work.id) ?? {}), spotCounts: regionsByWork.get(work.id) ?? {},
     })).filter((work) => `${work.title}${work.regions.join("")}`.normalize("NFKC").toLocaleLowerCase("ja-JP").replace(/\s+/g, "").includes(normalized));
     return Response.json({ works: published }, { headers: { "Cache-Control": "no-store" } });
   } catch {

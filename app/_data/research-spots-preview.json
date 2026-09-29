@@ -1,0 +1,2332 @@
+[
+  {
+    "id": "r_ddfe3b50b35105",
+    "workId": "w_58b22ca792db9e",
+    "name": "色内銀行街",
+    "region": "北海道・小樽市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_c1689ce916d34c",
+    "workId": "w_e9f16137d25dfe",
+    "name": "旧手宮線跡",
+    "region": "北海道・小樽市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_c7054376e290cf",
+    "workId": "w_5621d6b120b214",
+    "name": "美園町のズリ山周辺",
+    "region": "北海道・赤平市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_caf602688227c9",
+    "workId": "w_bdee7837dcb857",
+    "name": "旧住友赤平炭鉱立坑櫓",
+    "region": "北海道・赤平市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_4ac6550f8b7f92",
+    "workId": "w_1bec86c1821224",
+    "name": "風のガーデン",
+    "region": "北海道・富良野市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.visit-hokkaido.jp/spot/detail_10147.html",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_e782896f4fd0fb",
+    "workId": "w_c97248861562c9",
+    "name": "五郎の石の家",
+    "region": "北海道・富良野市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.visit-hokkaido.jp/spot/detail_10021.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_df374c34bd3333",
+    "workId": "w_270d3563757a63",
+    "name": "拾って来た家",
+    "region": "北海道・富良野市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.visit-hokkaido.jp/spot/detail_10073.html",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_242da4e28afce7",
+    "workId": "w_c97248861562c9",
+    "name": "麓郷の森",
+    "region": "北海道・富良野市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.visit-hokkaido.jp/spot/detail_10146.html",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_3c026116b34bc6",
+    "workId": "w_f86627fb84bcd9",
+    "name": "北のカナリアパーク",
+    "region": "北海道・礼文町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.visit-hokkaido.jp/spot/detail_11401.html",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_7491b91a025369",
+    "workId": "w_1ed934a8c61757",
+    "name": "弘前れんが倉庫美術館",
+    "region": "青森県・弘前市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.hirosakigurashi.jp/2021/0625/4262/",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_d509200148faf4",
+    "workId": "w_1ed934a8c61757",
+    "name": "青森県立弘前高等学校",
+    "region": "青森県・弘前市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.hirosakigurashi.jp/2021/0625/4262/",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_042e4391f6da6d",
+    "workId": "w_1ed934a8c61757",
+    "name": "岩木川河岸（板柳町）",
+    "region": "青森県・板柳町",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.thr.mlit.go.jp/aomori/syutu/fujisaki/image/gyouji/21106itomiti/21106itomiti.html",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_d3cf2a9e59d3df",
+    "workId": "w_aea10d2ded4091",
+    "name": "久慈駅前ビル",
+    "region": "岩手県・久慈市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.city.kuji.lg.jp/soshiki/shokokanko/1/1/3/1/2430.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_78c0cd4b8ecf53",
+    "workId": "w_aea10d2ded4091",
+    "name": "久慈川河川敷",
+    "region": "岩手県・久慈市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.city.kuji.lg.jp/soshiki/shokokanko/1/1/3/1/2430.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_7bcee086889379",
+    "workId": "w_aea10d2ded4091",
+    "name": "三陸鉄道久慈駅",
+    "region": "岩手県・久慈市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.city.kuji.lg.jp/soshiki/shokokanko/1/1/3/1/2430.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_1521f837ad17ef",
+    "workId": "w_aea10d2ded4091",
+    "name": "十段通り商店街",
+    "region": "岩手県・久慈市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.city.kuji.lg.jp/soshiki/shokokanko/1/1/3/1/2430.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_6858c255ad7a6a",
+    "workId": "w_aea10d2ded4091",
+    "name": "小袖海岸の監視小屋",
+    "region": "岩手県・久慈市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.city.kuji.lg.jp/soshiki/shokokanko/1/1/3/1/2430.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_2612f6767fb793",
+    "workId": "w_aea10d2ded4091",
+    "name": "小袖海岸海女素潜り実演場",
+    "region": "岩手県・久慈市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.city.kuji.lg.jp/soshiki/shokokanko/1/1/3/1/2430.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_4d24a45839cb0b",
+    "workId": "w_aea10d2ded4091",
+    "name": "小袖港北防波堤灯台",
+    "region": "岩手県・久慈市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.city.kuji.lg.jp/soshiki/shokokanko/1/1/3/1/2430.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_47571dd53cff00",
+    "workId": "w_aea10d2ded4091",
+    "name": "夫婦岩（小袖海岸）",
+    "region": "岩手県・久慈市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.city.kuji.lg.jp/soshiki/shokokanko/1/1/3/1/2430.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_7693ed25865606",
+    "workId": "w_aea10d2ded4091",
+    "name": "岩手県立種市高等学校",
+    "region": "岩手県・洋野町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.city.kuji.lg.jp/soshiki/shokokanko/1/1/3/1/2430.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_7d956d95b18076",
+    "workId": "w_799498d47b6eb6",
+    "name": "ぶらんどーむ一番町商店街",
+    "region": "宮城県・仙台市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://jl-db.nfaj.go.jp/location/40100220/",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_246c84f680cb0d",
+    "workId": "w_799498d47b6eb6",
+    "name": "一番町四丁目商店街",
+    "region": "宮城県・仙台市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://jl-db.nfaj.go.jp/location/040100221/",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_5540f41826f8c7",
+    "workId": "w_799498d47b6eb6",
+    "name": "定禅寺通",
+    "region": "宮城県・仙台市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://jl-db.nfaj.go.jp/location/40100012/",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_6e4ff9b3eb8ce5",
+    "workId": "w_799498d47b6eb6",
+    "name": "杜の都れんが下水洞窟",
+    "region": "宮城県・仙台市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.miyagi-kankou.or.jp/theme/detail.php?id=16412",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_d7af96ac0ec27c",
+    "workId": "w_6b1c63d6c6cb6e",
+    "name": "岩橋家",
+    "region": "秋田県・仙北市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://tazawako-kakunodate.com/spots/6061/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_f01eb8d5432aaf",
+    "workId": "w_6b1c63d6c6cb6e",
+    "name": "松本家",
+    "region": "秋田県・仙北市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://tazawako-kakunodate.com/spots/6066/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_deb4a843fe12ef",
+    "workId": "w_19ad78c17dfff6",
+    "name": "本山慈恩寺",
+    "region": "山形県・寒河江市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_59e970a096708a",
+    "workId": "w_b620bd6dfb2b3f",
+    "name": "高瀬地区",
+    "region": "山形県・山形市",
+    "granularity": "地区",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_3abf4ebc4de34c",
+    "workId": "w_527037a537e295",
+    "name": "旧柏倉家住宅",
+    "region": "山形県・中山町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_71f51b3b6c104f",
+    "workId": "w_e695b740b7afbe",
+    "name": "若松寺",
+    "region": "山形県・天童市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_aadd8ae697f537",
+    "workId": "w_4edbce9f973041",
+    "name": "安積歴史博物館",
+    "region": "福島県・郡山市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_6e182fddb62b03",
+    "workId": "w_18b82a8135989a",
+    "name": "安積歴史博物館",
+    "region": "福島県・郡山市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_7288551217ce80",
+    "workId": "w_fe1d58fbde845a",
+    "name": "牛久シャトー",
+    "region": "茨城県・牛久市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_7f43540bf6cdfc",
+    "workId": "w_e4a5f9f688b36c",
+    "name": "弘道館",
+    "region": "茨城県・水戸市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_23dacdb654038f",
+    "workId": "w_c7c2b6ed314001",
+    "name": "旧粟野中学校",
+    "region": "栃木県・鹿沼市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tochigi-iju.jp/about/location/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_6e533fde381864",
+    "workId": "w_b6baa6c2e821ce",
+    "name": "旧粟野中学校",
+    "region": "栃木県・鹿沼市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tochigi-iju.jp/about/location/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_423961da4e5edb",
+    "workId": "w_19a5085e2bf441",
+    "name": "小山駅",
+    "region": "栃木県・小山市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.tochigi-iju.jp/about/location/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_5577f682d33af3",
+    "workId": "w_58400b8a7b1dea",
+    "name": "史跡足利学校",
+    "region": "栃木県・足利市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_5e1a606e2aae34",
+    "workId": "w_19a5085e2bf441",
+    "name": "岩舟駅",
+    "region": "栃木県・栃木市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.tochigi-iju.jp/about/location/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_7fd91a78e1a2bc",
+    "workId": "w_b0b4f44d5a0d4e",
+    "name": "つつじが岡公園の東屋",
+    "region": "群馬県・館林市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.city.tatebayashi.gunma.jp/s060/shisei/010/010/20210215153413.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_d8a674cfe9dbd6",
+    "workId": "w_b0b4f44d5a0d4e",
+    "name": "茂林寺",
+    "region": "群馬県・館林市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.city.tatebayashi.gunma.jp/s060/shisei/010/010/20210215153413.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_b875eeccbd74da",
+    "workId": "w_77067bbf20dd8f",
+    "name": "桐生市有鄰館",
+    "region": "群馬県・桐生市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_f5536e188e6198",
+    "workId": "w_57c71c259d1a53",
+    "name": "鷲宮神社",
+    "region": "埼玉県・久喜市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.mofa.go.jp/mofaj/gaiko/local/page24_002273.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_a5c436f1b6d9aa",
+    "workId": "w_c3e79646888380",
+    "name": "一宮海岸",
+    "region": "千葉県・一宮町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://maruchiba.jp/feature/detail_293.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_e8953fda5370b5",
+    "workId": "w_4dab725aa945f1",
+    "name": "しおかぜ緑道",
+    "region": "千葉県・浦安市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://maruchiba.jp/feature/detail_228.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_f45a6438236e12",
+    "workId": "w_4dab725aa945f1",
+    "name": "喫茶さくら",
+    "region": "千葉県・浦安市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://maruchiba.jp/feature/detail_228.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_e2f48a993e36b5",
+    "workId": "w_4dab725aa945f1",
+    "name": "重兵衛商店",
+    "region": "千葉県・浦安市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://maruchiba.jp/feature/detail_228.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_b927b650060224",
+    "workId": "w_4dab725aa945f1",
+    "name": "神明街区公園",
+    "region": "千葉県・浦安市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://maruchiba.jp/feature/detail_228.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_2736186d643256",
+    "workId": "w_4dab725aa945f1",
+    "name": "中央公園（富岡）",
+    "region": "千葉県・浦安市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://maruchiba.jp/feature/detail_228.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_3eda56e9b178c0",
+    "workId": "w_67ad23ded4ac13",
+    "name": "九十九里ビーチタワー・不動堂海水浴場",
+    "region": "千葉県・九十九里町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://maruchiba.jp/feature/detail_293.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_6ea7ca03726941",
+    "workId": "w_94ef1150bf8246",
+    "name": "公津の杜コミュニティセンター（もりんぴあこうづ）",
+    "region": "千葉県・成田市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_61a94c414b948d",
+    "workId": "w_19a58d90065234",
+    "name": "ケーズハーバー PIER-01前",
+    "region": "千葉県・千葉市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://maruchiba.jp/feature/detail_293.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_0b543744907eda",
+    "workId": "w_29d7ac56bd1a7d",
+    "name": "ケーズハーバー親水空間",
+    "region": "千葉県・千葉市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://maruchiba.jp/feature/detail_293.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_0b95a977701d42",
+    "workId": "w_ca7c30a45c0ccf",
+    "name": "さつきが丘名店街",
+    "region": "千葉県・千葉市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://maruchiba.jp/spot/detail_10490.html",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_4fc8b033773d07",
+    "workId": "w_c8c1eef5b15615",
+    "name": "根本海水浴場",
+    "region": "千葉県・南房総市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://maruchiba.jp/feature/detail_293.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_8396d4e6914f5c",
+    "workId": "w_983193b166f8e3",
+    "name": "多田良北浜海水浴場",
+    "region": "千葉県・南房総市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://maruchiba.jp/feature/detail_293.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_2381c74bc81ccb",
+    "workId": "w_e1a48272cf20fe",
+    "name": "聖蹟桜ヶ丘駅周辺",
+    "region": "東京都・多摩市",
+    "granularity": "地区",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.city.tama.lg.jp/kanko/1015690/1016157.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_02307bc3f882fa",
+    "workId": "w_0bb4ec728141a5",
+    "name": "湘南港灯台",
+    "region": "神奈川県・藤沢市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.kanagawa-kankou.or.jp/spot?areaIds=16%2Flist&page=1",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_d38c2e7adf2777",
+    "workId": "w_a0203d45553df7",
+    "name": "九楽園生花店",
+    "region": "新潟県・新発田市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.shibata-fc.jp/result/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_e66f635c74ea86",
+    "workId": "w_a0203d45553df7",
+    "name": "新発田城",
+    "region": "新潟県・新発田市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.shibata-fc.jp/result/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_93b2676e2b6087",
+    "workId": "w_a0203d45553df7",
+    "name": "白勢長屋",
+    "region": "新潟県・新発田市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.shibata-fc.jp/result/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_8963cb50a16a1d",
+    "workId": "w_a0203d45553df7",
+    "name": "宝光寺",
+    "region": "新潟県・新発田市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.shibata-fc.jp/result/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_69afaf85f17328",
+    "workId": "w_a13d429c67a7ad",
+    "name": "市島邸",
+    "region": "新潟県・新発田市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.shibata-fc.jp/result/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_c4e55d00ced2b8",
+    "workId": "w_a13d429c67a7ad",
+    "name": "新発田城",
+    "region": "新潟県・新発田市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.shibata-fc.jp/result/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_a66557cad92df7",
+    "workId": "w_40d80533b22538",
+    "name": "市島邸",
+    "region": "新潟県・新発田市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.shibata-fc.jp/result/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_9f3231fa1009ea",
+    "workId": "w_40d80533b22538",
+    "name": "新発田城",
+    "region": "新潟県・新発田市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.shibata-fc.jp/result/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_68e53c8e8eb1c2",
+    "workId": "w_40d80533b22538",
+    "name": "菅谷寺",
+    "region": "新潟県・新発田市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.shibata-fc.jp/result/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_3b99ce06f09cde",
+    "workId": "w_7da30e26bc0b29",
+    "name": "旧県知事公舎記念館",
+    "region": "新潟県・新発田市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.shibata-fc.jp/result/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_b23f5980a326ce",
+    "workId": "w_6bc11183b70829",
+    "name": "おおかみこどもの花の家（山崎家住宅）",
+    "region": "富山県・上市町",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.info-toyama.com/attractions/102876",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_cd91d2583fc04a",
+    "workId": "w_395a92281c2f9a",
+    "name": "金沢湯涌夢二館前広場",
+    "region": "石川県・金沢市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hot-ishikawa.jp/blog/detail_297.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_f3f3eddc1d3af6",
+    "workId": "w_395a92281c2f9a",
+    "name": "湯涌温泉",
+    "region": "石川県・金沢市",
+    "granularity": "地区",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hot-ishikawa.jp/blog/detail_297.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_b061b35442817b",
+    "workId": "w_395a92281c2f9a",
+    "name": "湯涌郵便局",
+    "region": "石川県・金沢市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hot-ishikawa.jp/blog/detail_297.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_8416cce0af7f0a",
+    "workId": "w_395a92281c2f9a",
+    "name": "福神橋",
+    "region": "石川県・金沢市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hot-ishikawa.jp/blog/detail_297.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_6a6b59b64fb536",
+    "workId": "w_fd4dda5fde3401",
+    "name": "九頭竜川・中角歩道橋付近",
+    "region": "福井県・福井市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tbs.co.jp/cheerdan_tbs/fukui/location.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_7420d64e0e4897",
+    "workId": "w_fd4dda5fde3401",
+    "name": "福井駅周辺",
+    "region": "福井県・福井市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tbs.co.jp/cheerdan_tbs/fukui/fukuist.html",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_77aeb50094aaad",
+    "workId": "w_2332ba4a9956a9",
+    "name": "四尾連湖水明荘",
+    "region": "山梨県・市川三郷町",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.yamanashi-kankou.jp/special/sp_yurucamp/story7.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_f2ed2941b196a6",
+    "workId": "w_654fe6dd97d492",
+    "name": "国営アルプスあづみの公園 堀金・穂高地区",
+    "region": "長野県・安曇野市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.go-nagano.net/tradition-and-culture/id21053",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_d65e273af40d9f",
+    "workId": "w_260ac5bdef91d7",
+    "name": "上田城跡公園 東虎口櫓門",
+    "region": "長野県・上田市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.go-nagano.net/tradition-and-culture/id21053",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_7caf7897b4f80b",
+    "workId": "w_34615c1734a950",
+    "name": "バグパイプ",
+    "region": "岐阜県・高山市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hidatakayama.or.jp/modelCourse/detail_35.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_47e88ba855327c",
+    "workId": "w_34615c1734a950",
+    "name": "臥龍公園",
+    "region": "岐阜県・高山市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hidatakayama.or.jp/modelCourse/detail_35.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_61620d4bb832a7",
+    "workId": "w_34615c1734a950",
+    "name": "岐阜県立斐太高等学校",
+    "region": "岐阜県・高山市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hidatakayama.or.jp/modelCourse/detail_35.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_891f4a77e86cd4",
+    "workId": "w_34615c1734a950",
+    "name": "喫茶去かつて",
+    "region": "岐阜県・高山市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hidatakayama.or.jp/modelCourse/detail_35.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_e9b6c2a6c892f4",
+    "workId": "w_34615c1734a950",
+    "name": "宮川河川敷公園",
+    "region": "岐阜県・高山市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hidatakayama.or.jp/modelCourse/detail_35.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_a97937fcb4a717",
+    "workId": "w_34615c1734a950",
+    "name": "古い町並（上三之町）",
+    "region": "岐阜県・高山市",
+    "granularity": "地区",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hidatakayama.or.jp/modelCourse/detail_35.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_d8d459350a7b42",
+    "workId": "w_34615c1734a950",
+    "name": "高山市図書館 煥章館",
+    "region": "岐阜県・高山市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hidatakayama.or.jp/modelCourse/detail_35.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_a626babe7f3483",
+    "workId": "w_34615c1734a950",
+    "name": "鍛冶橋交差点",
+    "region": "岐阜県・高山市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hidatakayama.or.jp/modelCourse/detail_35.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_eda228c7f79fb8",
+    "workId": "w_34615c1734a950",
+    "name": "鍛冶橋駐車場",
+    "region": "岐阜県・高山市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hidatakayama.or.jp/modelCourse/detail_35.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_b21860c3e7206a",
+    "workId": "w_34615c1734a950",
+    "name": "飛驒一宮水無神社",
+    "region": "岐阜県・高山市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hidatakayama.or.jp/modelCourse/detail_35.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_ae0a112f9e688f",
+    "workId": "w_34615c1734a950",
+    "name": "不動橋",
+    "region": "岐阜県・高山市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hidatakayama.or.jp/modelCourse/detail_35.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_9b7f95f4722418",
+    "workId": "w_34615c1734a950",
+    "name": "本町4丁目の郵便ポスト",
+    "region": "岐阜県・高山市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hidatakayama.or.jp/modelCourse/detail_35.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_26b2b2e9b329af",
+    "workId": "w_34615c1734a950",
+    "name": "弥生橋付近の太鼓橋跡",
+    "region": "岐阜県・高山市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hidatakayama.or.jp/modelCourse/detail_35.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_0593054bcf4c09",
+    "workId": "w_acbf524039d3e2",
+    "name": "飛騨古川駅",
+    "region": "岐阜県・飛騨市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hida-kankou.jp/courses/73",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_5fadf400574cdf",
+    "workId": "w_acbf524039d3e2",
+    "name": "飛騨市図書館",
+    "region": "岐阜県・飛騨市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.hida-kankou.jp/courses/73",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_b5e97c94664b5a",
+    "workId": "w_f52cc2944adca3",
+    "name": "渚園",
+    "region": "静岡県・浜松市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://yurujam.jp/",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_fe8e615eeae009",
+    "workId": "w_f195b04b0427da",
+    "name": "双瀬の川渡り",
+    "region": "愛知県・新城市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_861be62f2498e0",
+    "workId": "w_f195b04b0427da",
+    "name": "道の駅もっくる新城",
+    "region": "愛知県・新城市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_241a3d3665fb42",
+    "workId": "w_f195b04b0427da",
+    "name": "本長篠駅",
+    "region": "愛知県・新城市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_c3a0d8e7507aa2",
+    "workId": "w_f195b04b0427da",
+    "name": "江比間野外活動センター",
+    "region": "愛知県・田原市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_e7271da91854b3",
+    "workId": "w_f195b04b0427da",
+    "name": "白谷海水浴場",
+    "region": "愛知県・田原市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_8e5e3b4bf832cd",
+    "workId": "w_f195b04b0427da",
+    "name": "USA豊橋駅前店",
+    "region": "愛知県・豊橋市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_abc42b1b0b8258",
+    "workId": "w_f195b04b0427da",
+    "name": "ガスト 豊橋橋良店",
+    "region": "愛知県・豊橋市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_13c1f56b127cdf",
+    "workId": "w_f195b04b0427da",
+    "name": "のんほいパーク",
+    "region": "愛知県・豊橋市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_e1959e9a329552",
+    "workId": "w_f195b04b0427da",
+    "name": "ボン.千賀",
+    "region": "愛知県・豊橋市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_76c64f6a3de917",
+    "workId": "w_f195b04b0427da",
+    "name": "みやこうどん",
+    "region": "愛知県・豊橋市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_cd1c936995db24",
+    "workId": "w_f195b04b0427da",
+    "name": "むらたのたこやき",
+    "region": "愛知県・豊橋市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_4defadfd68733c",
+    "workId": "w_f195b04b0427da",
+    "name": "ヤマサちくわ 西駅店",
+    "region": "愛知県・豊橋市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_3d56bec60321aa",
+    "workId": "w_f195b04b0427da",
+    "name": "駅ビルカフェUNO-UNO",
+    "region": "愛知県・豊橋市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_ae66151a499ff3",
+    "workId": "w_f195b04b0427da",
+    "name": "水上ビル",
+    "region": "愛知県・豊橋市",
+    "granularity": "地区",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_5969f442645aba",
+    "workId": "w_f195b04b0427da",
+    "name": "精文館書店 豊橋本店",
+    "region": "愛知県・豊橋市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_9125623d7abd45",
+    "workId": "w_f195b04b0427da",
+    "name": "道の駅とよはし",
+    "region": "愛知県・豊橋市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_2dcc36f05c599e",
+    "workId": "w_f195b04b0427da",
+    "name": "豊橋駅ビル カルミア",
+    "region": "愛知県・豊橋市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_5ef45f45d17334",
+    "workId": "w_f195b04b0427da",
+    "name": "豊橋市まちなか図書館",
+    "region": "愛知県・豊橋市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_afba5c8b5c6e85",
+    "workId": "w_f195b04b0427da",
+    "name": "豊橋市地下資源館・視聴覚教育センター",
+    "region": "愛知県・豊橋市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_f0177184aeee3b",
+    "workId": "w_f195b04b0427da",
+    "name": "豊川堂 カルミア店",
+    "region": "愛知県・豊橋市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_fbec6986fe7fa1",
+    "workId": "w_f195b04b0427da",
+    "name": "豊鉄市内線 駅前停留場",
+    "region": "愛知県・豊橋市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_e3adf60b39c548",
+    "workId": "w_f195b04b0427da",
+    "name": "珈琲とカヌレ",
+    "region": "愛知県・豊橋市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://makeine-anime.com/special/map/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_9f10b483ba4167",
+    "workId": "w_bba13d2d959a5a",
+    "name": "六華苑",
+    "region": "三重県・桑名市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.pref.mie.lg.jp/TOPICS/m0347000037.htm",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_024c2592e7c0ac",
+    "workId": "w_bba13d2d959a5a",
+    "name": "真宗高田派本山専修寺",
+    "region": "三重県・津市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.pref.mie.lg.jp/TOPICS/m0347000037.htm",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_8317c33e4d35a4",
+    "workId": "w_b5bd6f96aad833",
+    "name": "八幡堀",
+    "region": "滋賀県・近江八幡市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.shiga-location.jp/news/index.php?id=711",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_5454b4b8f6d9fa",
+    "workId": "w_fb41b868e0f278",
+    "name": "豊郷小学校旧校舎群",
+    "region": "滋賀県・豊郷町",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://ja.biwako-visitors.jp/spot/detail/228",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_2957506a8aeb32",
+    "workId": "w_a271f53635db3a",
+    "name": "伏見であい橋",
+    "region": "京都府・京都市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://ja.kyoto.travel/support/topics/2017/07/728.php",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_a2e7ef6cf0edab",
+    "workId": "w_5e5c5d8896363f",
+    "name": "Joshinスーパーキッズランド本店前",
+    "region": "大阪府・大阪市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://discover.osaka-info.jp/jp/articles/osaka-anime-pilgrimage",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_da069a785f94c1",
+    "workId": "w_5e5c5d8896363f",
+    "name": "てんしば OSAKAモニュメント",
+    "region": "大阪府・大阪市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://discover.osaka-info.jp/jp/articles/osaka-anime-pilgrimage",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_811d1142b2a234",
+    "workId": "w_5e5c5d8896363f",
+    "name": "大阪ステーションシティ アトリウム広場",
+    "region": "大阪府・大阪市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://discover.osaka-info.jp/jp/articles/osaka-anime-pilgrimage",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_cc5d706455a941",
+    "workId": "w_5e5c5d8896363f",
+    "name": "大阪ステーションシティ 暁の広場",
+    "region": "大阪府・大阪市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://discover.osaka-info.jp/jp/articles/osaka-anime-pilgrimage",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_e8b4e8e1c95fd3",
+    "workId": "w_5e5c5d8896363f",
+    "name": "大阪ステーションシティ 時空の広場",
+    "region": "大阪府・大阪市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://discover.osaka-info.jp/jp/articles/osaka-anime-pilgrimage",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_1ea49660d05495",
+    "workId": "w_5e5c5d8896363f",
+    "name": "大阪駅ホーム",
+    "region": "大阪府・大阪市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://discover.osaka-info.jp/jp/articles/osaka-anime-pilgrimage",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_7bc5561fc6730c",
+    "workId": "w_5e5c5d8896363f",
+    "name": "通天閣 TIP THE TSUTENKAKU",
+    "region": "大阪府・大阪市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://discover.osaka-info.jp/jp/articles/osaka-anime-pilgrimage",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_a6a1593b4e1f13",
+    "workId": "w_5e5c5d8896363f",
+    "name": "天王寺動物園",
+    "region": "大阪府・大阪市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://discover.osaka-info.jp/jp/articles/osaka-anime-pilgrimage",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_37b843f8d2d5da",
+    "workId": "w_5e5c5d8896363f",
+    "name": "難波八阪神社 獅子殿",
+    "region": "大阪府・大阪市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://discover.osaka-info.jp/jp/articles/osaka-anime-pilgrimage",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_28fdb2eed0b240",
+    "workId": "w_5e5c5d8896363f",
+    "name": "日本橋商店会",
+    "region": "大阪府・大阪市",
+    "granularity": "地区",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://discover.osaka-info.jp/jp/articles/osaka-anime-pilgrimage",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_10d51334424267",
+    "workId": "w_05b4dd137d91ff",
+    "name": "書寫山圓教寺 三之堂",
+    "region": "兵庫県・姫路市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_59d6278de81670",
+    "workId": "w_31005b89877423",
+    "name": "書寫山圓教寺 三之堂",
+    "region": "兵庫県・姫路市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_ba0490cfd7d52a",
+    "workId": "w_c157f8af1fdf8c",
+    "name": "書寫山圓教寺 三之堂",
+    "region": "兵庫県・姫路市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_a906dfea8dad69",
+    "workId": "w_5f026e9b4eeb97",
+    "name": "書寫山圓教寺 三之堂",
+    "region": "兵庫県・姫路市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_c1b25c8fd5e9a5",
+    "workId": "w_2377fa37a8aa6f",
+    "name": "どんづる峯",
+    "region": "奈良県・香芝市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_03df326abc0282",
+    "workId": "w_7b0d0c154d81ee",
+    "name": "どんづる峯",
+    "region": "奈良県・香芝市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://japan-heritage.bunka.go.jp/ja/lp/butai/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_cf9d36b1031a9f",
+    "workId": "w_ddeeef2d11934b",
+    "name": "友ヶ島",
+    "region": "和歌山県・和歌山市",
+    "granularity": "地区",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.wakayama-kanko.or.jp/features/detail_127.html",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_1e892aa430d17b",
+    "workId": "w_fca3c0ec7c5c9e",
+    "name": "浦富海岸",
+    "region": "鳥取県・岩美町",
+    "granularity": "地区",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_732d0915cd2b64",
+    "workId": "w_187519a9729659",
+    "name": "浦富海岸",
+    "region": "鳥取県・岩美町",
+    "granularity": "地区",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_2039309cfbef5c",
+    "workId": "w_187519a9729659",
+    "name": "岩美中学校",
+    "region": "鳥取県・岩美町",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_d4f27852ea03a2",
+    "workId": "w_187519a9729659",
+    "name": "岩美町国民健康保険岩美病院",
+    "region": "鳥取県・岩美町",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_570aa69bd925e0",
+    "workId": "w_187519a9729659",
+    "name": "田後港",
+    "region": "鳥取県・岩美町",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_f38211d59de244",
+    "workId": "w_152ed86367e880",
+    "name": "JR岩美駅",
+    "region": "鳥取県・岩美町",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_33ebabc165cd08",
+    "workId": "w_152ed86367e880",
+    "name": "浦富海岸",
+    "region": "鳥取県・岩美町",
+    "granularity": "地区",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_0c57fa5e3a3457",
+    "workId": "w_152ed86367e880",
+    "name": "田後港",
+    "region": "鳥取県・岩美町",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_11cc0f2293c486",
+    "workId": "w_152ed86367e880",
+    "name": "網代港",
+    "region": "鳥取県・岩美町",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_0bed2b05683255",
+    "workId": "w_b93af955e81755",
+    "name": "赤碕港",
+    "region": "鳥取県・琴浦町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_0a0850ea841e56",
+    "workId": "w_fca3c0ec7c5c9e",
+    "name": "三朝温泉",
+    "region": "鳥取県・三朝町",
+    "granularity": "地区",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_e64b0e0c5b61f8",
+    "workId": "w_fca3c0ec7c5c9e",
+    "name": "円形劇場くらよしフィギュアミュージアム",
+    "region": "鳥取県・倉吉市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_a3878cff250d29",
+    "workId": "w_702d1ec1def205",
+    "name": "大神山神社奥宮",
+    "region": "鳥取県・大山町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_71a86eedad129e",
+    "workId": "w_0442498397ef3e",
+    "name": "鳥取砂丘",
+    "region": "鳥取県・鳥取市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_29150c6a511462",
+    "workId": "w_fca3c0ec7c5c9e",
+    "name": "鳥取砂丘",
+    "region": "鳥取県・鳥取市",
+    "granularity": "地区",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_d6f18d674df26a",
+    "workId": "w_152ed86367e880",
+    "name": "鳥取城跡",
+    "region": "鳥取県・鳥取市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_73d735766965cf",
+    "workId": "w_14f58310c1e868",
+    "name": "ホテルモナーク鳥取",
+    "region": "鳥取県・鳥取市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_27122e8e61924f",
+    "workId": "w_14f58310c1e868",
+    "name": "まつやホルモン",
+    "region": "鳥取県・鳥取市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_5ee7b6449ca3a9",
+    "workId": "w_14f58310c1e868",
+    "name": "鳥取砂丘",
+    "region": "鳥取県・鳥取市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_bd181f86dba2b9",
+    "workId": "w_3e24c5b0c5aeff",
+    "name": "鳥取砂丘",
+    "region": "鳥取県・鳥取市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_f6e84b945adf70",
+    "workId": "w_12b91fb151a4eb",
+    "name": "鳥取砂丘",
+    "region": "鳥取県・鳥取市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_b37dcb6c2e33dc",
+    "workId": "w_c532666cd2fdd8",
+    "name": "中国庭園燕趙園",
+    "region": "鳥取県・湯梨浜町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tottori-guide.jp/1964/",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_018ff769025dba",
+    "workId": "w_0442498397ef3e",
+    "name": "とっとり花回廊",
+    "region": "鳥取県・南部町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_35c186a5af0f3d",
+    "workId": "w_4a9f81863336da",
+    "name": "花見山道路",
+    "region": "鳥取県・日南町",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_9a26a6263ddbe7",
+    "workId": "w_4a9f81863336da",
+    "name": "旧花見山スキー場",
+    "region": "鳥取県・日南町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_9a0a76bea01f70",
+    "workId": "w_b93af955e81755",
+    "name": "皆生温泉",
+    "region": "鳥取県・米子市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_b303d5a82fcc60",
+    "workId": "w_ea721891dab065",
+    "name": "朝日町",
+    "region": "鳥取県・米子市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_1f5882becc0233",
+    "workId": "w_ea721891dab065",
+    "name": "米子水鳥公園",
+    "region": "鳥取県・米子市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.tottori-guide.jp/fc/30040.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_47d3ce5bcd520d",
+    "workId": "w_29729b04a32daf",
+    "name": "唐音水仙公園",
+    "region": "島根県・益田市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.kankou-shimane.com/loca/works/1619",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_6350a7c2f3df73",
+    "workId": "w_8a0076afdcf994",
+    "name": "鬼の舌震",
+    "region": "島根県・奥出雲町",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.kankou-shimane.com/contents/vivant/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_5302f1843c7c87",
+    "workId": "w_29729b04a32daf",
+    "name": "亀嵩駅",
+    "region": "島根県・奥出雲町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.kankou-shimane.com/loca/works/1619",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_69add67afe42e0",
+    "workId": "w_29729b04a32daf",
+    "name": "総光寺",
+    "region": "島根県・奥出雲町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.kankou-shimane.com/loca/works/1619",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_ec40fe9d2c7de3",
+    "workId": "w_29729b04a32daf",
+    "name": "湯野神社",
+    "region": "島根県・奥出雲町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.kankou-shimane.com/loca/works/1619",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_e67c370564c424",
+    "workId": "w_8a0076afdcf994",
+    "name": "旧大谷小学校",
+    "region": "島根県・松江市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.kankou-shimane.com/contents/vivant/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_3146a8c037eb4b",
+    "workId": "w_8a0076afdcf994",
+    "name": "松江城大手前",
+    "region": "島根県・松江市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.kankou-shimane.com/contents/vivant/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_697214ad3d6f04",
+    "workId": "w_8a0076afdcf994",
+    "name": "島根県庁",
+    "region": "島根県・松江市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.kankou-shimane.com/contents/vivant/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_bf4252a0aefc91",
+    "workId": "w_8a0076afdcf994",
+    "name": "本庄小学校",
+    "region": "島根県・松江市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.kankou-shimane.com/contents/vivant/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_36cd8164b2a94b",
+    "workId": "w_29729b04a32daf",
+    "name": "宍道駅",
+    "region": "島根県・松江市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.kankou-shimane.com/loca/works/1619",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_ea87a8e6b1a4bf",
+    "workId": "w_29729b04a32daf",
+    "name": "広浜鉄道今福線遺構",
+    "region": "島根県・浜田市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.kankou-shimane.com/loca/works/1619",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_88e2291e48cbaa",
+    "workId": "w_8c5ba04e49b6a6",
+    "name": "倉敷美観地区 中橋周辺",
+    "region": "岡山県・倉敷市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.okayama-kanko.jp/feature/rurouni-kenshin/top",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_8c86d701882195",
+    "workId": "w_5621d6b120b214",
+    "name": "安芸灘大橋",
+    "region": "広島県・呉市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://team500.hiroshima.jp/article/detail/394",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_01a7c75ffe5eb1",
+    "workId": "w_5621d6b120b214",
+    "name": "御手洗町並み保存地区",
+    "region": "広島県・呉市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://team500.hiroshima.jp/article/detail/394",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_0406df6c14afdf",
+    "workId": "w_549e5dcc5507e8",
+    "name": "防府市内",
+    "region": "山口県・防府市",
+    "granularity": "地域",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.mai-mai.jp/news/detail.php?id=1128734",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_cb76963ae19bb8",
+    "workId": "w_82408b66103bec",
+    "name": "椿泊の町並み",
+    "region": "徳島県・阿南市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.awanavi.jp/tls/archives/spot/1646",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_81d2d899dccd5f",
+    "workId": "w_06ef8d59ea82ad",
+    "name": "ことでん滝宮駅",
+    "region": "香川県・綾川町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://fc.my-kagawa.jp/result/25/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_c93d40f7e3e6db",
+    "workId": "w_06ef8d59ea82ad",
+    "name": "サン・アンジェリーナ",
+    "region": "香川県・宇多津町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://fc.my-kagawa.jp/result/25/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_c228248b3ceacd",
+    "workId": "w_06ef8d59ea82ad",
+    "name": "シェルエメール",
+    "region": "香川県・宇多津町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://fc.my-kagawa.jp/result/25/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_d85d7c2172048a",
+    "workId": "w_06ef8d59ea82ad",
+    "name": "ことでん琴平駅",
+    "region": "香川県・琴平町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://fc.my-kagawa.jp/result/25/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_a0eb7188829b92",
+    "workId": "w_c9477d68a1f5fe",
+    "name": "王の下防波堤",
+    "region": "香川県・高松市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.my-kagawa.jp/blog/blog-20220309/blog-20220309",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_ebe9aa7f4d6b0d",
+    "workId": "w_c9477d68a1f5fe",
+    "name": "皇子神社",
+    "region": "香川県・高松市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.my-kagawa.jp/blog/blog-20220309/blog-20220309",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_f81193a9d4c833",
+    "workId": "w_c9477d68a1f5fe",
+    "name": "専修院",
+    "region": "香川県・高松市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.my-kagawa.jp/blog/blog-20220309/blog-20220309",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_eaa6648c038fbd",
+    "workId": "w_c9477d68a1f5fe",
+    "name": "谷商店",
+    "region": "香川県・高松市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.my-kagawa.jp/blog/blog-20220309/blog-20220309",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_2cb3b9a289f0a8",
+    "workId": "w_06ef8d59ea82ad",
+    "name": "ことでん一宮駅",
+    "region": "香川県・高松市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://fc.my-kagawa.jp/result/25/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_2d88b3d50d3a47",
+    "workId": "w_06ef8d59ea82ad",
+    "name": "ことでん仏生山駅",
+    "region": "香川県・高松市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://fc.my-kagawa.jp/result/25/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_a4d0e25c80c879",
+    "workId": "w_06ef8d59ea82ad",
+    "name": "ことでん片原町駅",
+    "region": "香川県・高松市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://fc.my-kagawa.jp/result/25/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_f28779cd100cf6",
+    "workId": "w_06ef8d59ea82ad",
+    "name": "香川県庁",
+    "region": "香川県・高松市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://fc.my-kagawa.jp/result/25/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_c15e946e739742",
+    "workId": "w_06ef8d59ea82ad",
+    "name": "香川県立ミュージアム",
+    "region": "香川県・高松市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://fc.my-kagawa.jp/result/25/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_0c70851e89fa20",
+    "workId": "w_06ef8d59ea82ad",
+    "name": "高松空港",
+    "region": "香川県・高松市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://fc.my-kagawa.jp/result/25/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_5c6a5b63183ba0",
+    "workId": "w_06ef8d59ea82ad",
+    "name": "高松市美術館",
+    "region": "香川県・高松市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://fc.my-kagawa.jp/result/25/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_f1457fc7be118a",
+    "workId": "w_06ef8d59ea82ad",
+    "name": "房前公園",
+    "region": "香川県・高松市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://fc.my-kagawa.jp/result/25/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_36ccd4157af77e",
+    "workId": "w_06ef8d59ea82ad",
+    "name": "北浜アリー",
+    "region": "香川県・高松市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://fc.my-kagawa.jp/result/25/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_4cd9547fb553d2",
+    "workId": "w_06ef8d59ea82ad",
+    "name": "ことでん井戸駅",
+    "region": "香川県・三木町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://fc.my-kagawa.jp/result/25/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_3caca1a66476b9",
+    "workId": "w_06ef8d59ea82ad",
+    "name": "東かがわ手袋ギャラリー",
+    "region": "香川県・東かがわ市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://fc.my-kagawa.jp/result/25/",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_4a434462535f81",
+    "workId": "w_3ec6de3717fd21",
+    "name": "梅津寺駅",
+    "region": "愛媛県・松山市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://matsuyama-sightseeing.com/spot/58-2/",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_e8163364bd647f",
+    "workId": "w_3b3cdaf9bff7ce",
+    "name": "JR伊野駅",
+    "region": "高知県・いの町",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://kochi-tabi.jp/lp/location-tourism/work/ryu-soba.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_fc045867a96585",
+    "workId": "w_3b3cdaf9bff7ce",
+    "name": "ふれあいの里柳野",
+    "region": "高知県・いの町",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://kochi-tabi.jp/lp/location-tourism/work/ryu-soba.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_b1530931f154c9",
+    "workId": "w_3b3cdaf9bff7ce",
+    "name": "波川公園",
+    "region": "高知県・いの町",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://kochi-tabi.jp/lp/location-tourism/work/ryu-soba.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_5eee6031ece04f",
+    "workId": "w_ed8a2091f7d1b0",
+    "name": "浅尾沈下橋",
+    "region": "高知県・越知町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.town.ochi.kochi.jp/kankou/look/hasi_asao",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_adce5973274cca",
+    "workId": "w_c96c6d96d4c0a9",
+    "name": "浅尾沈下橋",
+    "region": "高知県・越知町",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.town.ochi.kochi.jp/kankou/look/hasi_asao",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_4f1d1594d493c0",
+    "workId": "w_3b3cdaf9bff7ce",
+    "name": "浅尾沈下橋",
+    "region": "高知県・越知町",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://kochi-tabi.jp/lp/location-tourism/work/ryu-soba.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_3dc7aeb82c37f5",
+    "workId": "w_3b3cdaf9bff7ce",
+    "name": "JR高知駅",
+    "region": "高知県・高知市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://kochi-tabi.jp/lp/location-tourism/work/ryu-soba.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_11e6d835b12da9",
+    "workId": "w_3b3cdaf9bff7ce",
+    "name": "鏡川",
+    "region": "高知県・高知市",
+    "granularity": "地区",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://kochi-tabi.jp/lp/location-tourism/work/ryu-soba.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_c4f642f1c3ecb7",
+    "workId": "w_3b3cdaf9bff7ce",
+    "name": "帯屋町商店街",
+    "region": "高知県・高知市",
+    "granularity": "地区",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://kochi-tabi.jp/lp/location-tourism/work/ryu-soba.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_32cbdfe8b71fa8",
+    "workId": "w_3b3cdaf9bff7ce",
+    "name": "安居渓谷",
+    "region": "高知県・仁淀川町",
+    "granularity": "地区",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://kochi-tabi.jp/lp/location-tourism/work/ryu-soba.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_232c77b2f9c1b7",
+    "workId": "w_a271f53635db3a",
+    "name": "太宰府天満宮",
+    "region": "福岡県・太宰府市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://yokanavi.com/features/78211",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_6b20007abf7f03",
+    "workId": "w_a271f53635db3a",
+    "name": "ヒルトン福岡シーホーク",
+    "region": "福岡県・福岡市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://yokanavi.com/features/78211",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_82635b67c32627",
+    "workId": "w_a271f53635db3a",
+    "name": "清流公園",
+    "region": "福岡県・福岡市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://yokanavi.com/features/78211",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_c5536241413038",
+    "workId": "w_a271f53635db3a",
+    "name": "地下鉄天神南駅前",
+    "region": "福岡県・福岡市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://yokanavi.com/features/78211",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_abc091e62fcde4",
+    "workId": "w_a271f53635db3a",
+    "name": "馬出御所ノ内公園",
+    "region": "福岡県・福岡市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://yokanavi.com/features/78211",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_447e75ba1b2e4a",
+    "workId": "w_a271f53635db3a",
+    "name": "福博であい橋",
+    "region": "福岡県・福岡市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://yokanavi.com/features/78211",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_9121e30345fe6d",
+    "workId": "w_cde70fdf82d150",
+    "name": "唐津城",
+    "region": "佐賀県・唐津市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000034.000018574.html",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_5902001b883546",
+    "workId": "w_cde70fdf82d150",
+    "name": "舞鶴橋",
+    "region": "佐賀県・唐津市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000034.000018574.html",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_cd434a2ece7925",
+    "workId": "w_6305e34a073c04",
+    "name": "伊王島灯台",
+    "region": "長崎県・長崎市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.nagasaki-tabinet.com/feature/iroduku",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_4f07d6f3977889",
+    "workId": "w_6305e34a073c04",
+    "name": "森の魔女カフェ",
+    "region": "長崎県・長崎市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.nagasaki-tabinet.com/feature/iroduku",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_233d82b987dcbd",
+    "workId": "w_6305e34a073c04",
+    "name": "大浦展望公園",
+    "region": "長崎県・長崎市",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.nagasaki-tabinet.com/feature/iroduku",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_be0b3dc65a226d",
+    "workId": "w_df056e311cd472",
+    "name": "人吉・球磨地域",
+    "region": "熊本県・人吉・球磨地域",
+    "granularity": "地域",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.pr-today.net/a00499/opr/1558/",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_0450c9298c62b2",
+    "workId": "w_79aaf802ebe374",
+    "name": "昭和の町",
+    "region": "大分県・豊後高田市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.visit-oita.jp/news/detail/380",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_a4973ca7609fd9",
+    "workId": "w_79aaf802ebe374",
+    "name": "真玉海岸",
+    "region": "大分県・豊後高田市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.visit-oita.jp/news/detail/380",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_b5ff33f839c192",
+    "workId": "w_b08056b2f9b469",
+    "name": "門川町内",
+    "region": "宮崎県・門川町",
+    "granularity": "地域",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.pref.miyazaki.lg.jp/kense/koho/chijishitsu/photogalleries/2024/20241003114534.html",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_1b170040690f2f",
+    "workId": "w_19a5085e2bf441",
+    "name": "アイショップ石堂大平店",
+    "region": "鹿児島県・中種子町",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.pref.kagoshima.jp/ap01/chiiki/kumage/chiiki/kankou/stampnakatane.html",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_89da6d8027cbf1",
+    "workId": "w_19a5085e2bf441",
+    "name": "中山海岸",
+    "region": "鹿児島県・中種子町",
+    "granularity": "地点",
+    "relationship": "モデル地・登場風景",
+    "sourceUrl": "https://www.pref.kagoshima.jp/ap01/chiiki/kumage/chiiki/kankou/stampnakatane.html",
+    "sourceStage": "検索結果記載確認・本文再確認待ち"
+  },
+  {
+    "id": "r_c4004da69f4278",
+    "workId": "w_a656528c3afb5a",
+    "name": "国際通り",
+    "region": "沖縄県・那覇市",
+    "granularity": "地区",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.okinawastory.jp/news/tourism/4431",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_99363ce6225c8c",
+    "workId": "w_a656528c3afb5a",
+    "name": "首里金城町の石畳道",
+    "region": "沖縄県・那覇市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.okinawastory.jp/news/tourism/4431",
+    "sourceStage": "本文記載確認"
+  },
+  {
+    "id": "r_889014961559d6",
+    "workId": "w_a656528c3afb5a",
+    "name": "牧志公園",
+    "region": "沖縄県・那覇市",
+    "granularity": "地点",
+    "relationship": "ロケ地",
+    "sourceUrl": "https://www.okinawastory.jp/news/tourism/4431",
+    "sourceStage": "本文記載確認"
+  }
+]

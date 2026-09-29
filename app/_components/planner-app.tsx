@@ -1,10 +1,14 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { MatchedWork, VerifiedLeg, VerifiedSpot } from "../_data/anilist-types";
-import type { ResearchCatalog } from "../_data/research-works";
+import type { ResearchCatalog, ResearchWork } from "../_data/research-works";
+import { displayVersion, matchesGenre, workTypeLabel, type GenreFilter } from "../_data/work-genres";
+import { courseUrl, readCourseUrl, type CourseOptions } from "../_data/course-url";
 import AniListLookup from "./anilist-lookup";
+import DetourSearch from "./detour-search";
+import ResearchCourse from "./research-course";
 import VerifiedSpotMap from "./verified-spot-map";
 
 type VerifiedSelection = {
@@ -12,10 +16,21 @@ type VerifiedSelection = {
   spots: VerifiedSpot[];
   legs: VerifiedLeg[];
   region: string;
+  options?: CourseOptions;
 };
+
+type PublishedWork = MatchedWork & { category: string | null; spotCounts?: Record<string, number> };
+
+const APP_TITLE = "まちぽ｜物語の場所から、まちを歩こう。";
+const INITIAL_VISIBLE = 12;
+const genreOptions: GenreFilter[] = ["すべて", "ドラマ", "アニメ", "映画"];
 
 function normalizeSearch(value: string) {
   return value.normalize("NFKC").toLocaleLowerCase("ja-JP").replace(/\s+/g, "");
+}
+
+function readUrl() {
+  return readCourseUrl(window.location.search);
 }
 
 function SearchIcon() {
@@ -28,116 +43,232 @@ function PinIcon() {
 
 export default function PlannerApp({ researchCatalog }: { researchCatalog: ResearchCatalog }) {
   const [search, setSearch] = useState("");
+  const [searchMode, setSearchMode] = useState<"works" | "detours">("works");
+  const [genreFilter, setGenreFilter] = useState<GenreFilter>("すべて");
   const [selection, setSelection] = useState<VerifiedSelection | null>(null);
-  const [publishedWorks, setPublishedWorks] = useState<(MatchedWork & { category: string | null })[]>([]);
-  const [publishedError, setPublishedError] = useState(false);
-  const [openingWorkId, setOpeningWorkId] = useState("");
+  const [researchSelection, setResearchSelection] = useState<{ work: ResearchWork; region: string; options?: CourseOptions } | null>(null);
+  const [publishedWorks, setPublishedWorks] = useState<PublishedWork[]>([]);
+  const [publishedStatus, setPublishedStatus] = useState<"loading" | "ready" | "error">("loading");
+  const [openingKey, setOpeningKey] = useState("");
   const [openError, setOpenError] = useState("");
-  const query = normalizeSearch(search.trim());
-  const matchingWorks = researchCatalog.works.filter((work) =>
-    normalizeSearch(`${work.title}${work.regions.join("")}`).includes(query),
-  );
-  const visibleWorks = query ? matchingWorks : matchingWorks.slice(0, 12);
-  const matchingPublished = publishedWorks.filter((work) => normalizeSearch(`${work.title}${work.regions.join("")}`).includes(query));
+  const [showAll, setShowAll] = useState(false);
+  const listScroll = useRef(0);
+  const publishedRef = useRef<PublishedWork[]>([]);
 
+  const query = normalizeSearch(search.trim());
+  const publishedById = useMemo(() => new Map(publishedWorks.map((work) => [work.id, work])), [publishedWorks]);
+
+  // 地図・所要時間を出せる作品を先頭に並べる。
+  const orderedWorks = useMemo(() => {
+    const ready = researchCatalog.works.filter((work) => publishedById.has(work.id));
+    const others = researchCatalog.works.filter((work) => !publishedById.has(work.id));
+    return [...ready, ...others];
+  }, [researchCatalog.works, publishedById]);
+
+  const matchingWorks = orderedWorks.filter((work) =>
+    matchesGenre(work, genreFilter) && normalizeSearch(`${work.title}${work.version ?? ""}${work.regions.join("")}`).includes(query),
+  );
+  const filtering = Boolean(query) || genreFilter !== "すべて";
+  const visibleWorks = filtering || showAll ? matchingWorks : matchingWorks.slice(0, INITIAL_VISIBLE);
+  const showAniList = [...search.trim()].length >= 2 && matchingWorks.length === 0 && (genreFilter === "すべて" || genreFilter === "アニメ");
+
+  const showCourse = useCallback((title: string, region: string) => {
+    document.title = `${title}・${region}｜まちぽ`;
+    window.scrollTo({ top: 0 });
+  }, []);
+
+  const clearCourse = useCallback(() => {
+    setSelection(null);
+    setResearchSelection(null);
+    document.title = APP_TITLE;
+    const saved = listScroll.current;
+    requestAnimationFrame(() => window.scrollTo({ top: saved }));
+  }, []);
+
+  const loadWork = useCallback(async (workId: string, region: string, options: CourseOptions = {}) => {
+    setOpenError("");
+    const work = researchCatalog.works.find((item) => item.id === workId);
+    const published = publishedRef.current.find((item) => item.id === workId);
+    if (published?.regions.includes(region)) {
+      setOpeningKey(`${workId}/${region}`);
+      try {
+        const response = await fetch(`/api/spots?workId=${encodeURIComponent(workId)}`);
+        const data = await response.json();
+        if (!response.ok || !Array.isArray(data.spots) || !data.spots.length) throw new Error(data.error || "地図に表示できる聖地がありません。");
+        setResearchSelection(null);
+        setSelection({ work: published, spots: data.spots, legs: data.legs, region, options });
+        showCourse(published.title, region);
+        return true;
+      } catch (error) {
+        setOpenError(error instanceof Error ? error.message : "聖地を取得できませんでした。時間をおいて再度お試しください。");
+        return false;
+      } finally { setOpeningKey(""); }
+    }
+    if (work?.regions.includes(region)) {
+      setSelection(null);
+      setResearchSelection({ work, region, options });
+      showCourse(work.title, region);
+      return true;
+    }
+    setOpenError("指定された作品・地域が見つかりませんでした。一覧から選び直してください。");
+    return false;
+  }, [researchCatalog.works, showCourse]);
+
+  async function openWork(workId: string, region: string, options: CourseOptions = {}) {
+    listScroll.current = window.scrollY;
+    const opened = await loadWork(workId, region, options);
+    if (opened) window.history.pushState({ machipo: true }, "", courseUrl(workId, region, options));
+  }
+
+  // 対応作品を取得したあと、共有URL・再読み込みで指定された画面を開く。
   useEffect(() => {
     const controller = new AbortController();
+    function openFromUrl() {
+      const target = readUrl();
+      if (!target) return;
+      void loadWork(target.workId, target.region, target.options).then((opened) => {
+        if (!opened) window.history.replaceState(null, "", window.location.pathname);
+      });
+    }
     fetch("/api/works", { signal: controller.signal }).then(async (response) => {
       if (!response.ok) throw new Error("対応作品を取得できませんでした。");
       return response.json();
-    }).then((data) => setPublishedWorks(Array.isArray(data.works) ? data.works : []))
-      .catch(() => { if (!controller.signal.aborted) setPublishedError(true); });
+    }).then((data) => {
+      const works: PublishedWork[] = Array.isArray(data.works) ? data.works : [];
+      publishedRef.current = works;
+      setPublishedWorks(works);
+      setPublishedStatus("ready");
+      openFromUrl();
+    }).catch(() => {
+      if (controller.signal.aborted) return;
+      setPublishedStatus("error");
+      openFromUrl();
+    });
     return () => controller.abort();
+    // 初回表示時だけ実行する。
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  async function openPublishedWork(work: MatchedWork, requestedRegion: string) {
-    setOpeningWorkId(work.id);
-    setOpenError("");
-    try {
-      const response = await fetch(`/api/spots?workId=${encodeURIComponent(work.id)}`);
-      const data = await response.json();
-      if (!response.ok || !Array.isArray(data.spots) || !data.spots.length) throw new Error(data.error || "確認済み聖地がありません。");
-      const region = requestedRegion;
-      setSelection({ work, spots: data.spots, legs: data.legs, region });
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    } catch (error) {
-      setOpenError(error instanceof Error ? error.message : "聖地を取得できませんでした。");
-    } finally { setOpeningWorkId(""); }
+  // ブラウザの「戻る」「進む」に追従する。
+  useEffect(() => {
+    function onPopState() {
+      const target = readUrl();
+      if (target) void loadWork(target.workId, target.region, target.options);
+      else clearCourse();
+    }
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, [loadWork, clearCourse]);
+
+  function backToList() {
+    if ((window.history.state as { machipo?: boolean } | null)?.machipo) {
+      window.history.back();
+      return;
+    }
+    window.history.replaceState(null, "", window.location.pathname);
+    clearCourse();
   }
 
-  function backToSearch() {
-    setSelection(null);
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
-
-  function reset() {
+  function goHome() {
     setSearch("");
-    backToSearch();
+    setGenreFilter("すべて");
+    setShowAll(false);
+    setOpenError("");
+    listScroll.current = 0;
+    if (selection || researchSelection) window.history.pushState(null, "", window.location.pathname);
+    clearCourse();
+  }
+
+  function openAniListWork(work: MatchedWork, spots: VerifiedSpot[], legs: VerifiedLeg[], region: string) {
+    listScroll.current = window.scrollY;
+    setResearchSelection(null);
+    setSelection({ work, spots, legs, region });
+    window.history.pushState({ machipo: true }, "", courseUrl(work.id, region));
+    showCourse(work.title, region);
   }
 
   return (
     <div className="app-shell">
       <header className="app-header">
-        <button className="brand" type="button" onClick={reset} aria-label="まちぽ ホームへ戻る">
-          <span className="brand-mark"><Image src="/app-icon.png" alt="" width={548} height={494} priority /></span>
+        <button className="brand" type="button" onClick={goHome} aria-label="まちぽ トップへ戻る">
+          <span className="brand-mark"><Image src="/app-icon.png" alt="" width={56} height={50} priority /></span>
           <span><strong>まちぽ</strong><small>物語の場所から、まちを歩こう。</small></span>
         </button>
-        <div className="availability-badge"><span /> 確認済み地点から対応</div>
       </header>
 
-      <nav className="stepper" aria-label="コース作成の進み具合">
-        <button type="button" className={`step-item ${selection ? "is-complete" : "is-active"}`} onClick={backToSearch} aria-current={!selection ? "step" : undefined}>
-          <span className="step-number">{selection ? "✓" : "1"}</span><span className="step-label">作品・地域</span>
-        </button>
-        <button type="button" className={`step-item ${selection ? "is-active" : ""}`} disabled={!selection} aria-current={selection ? "step" : undefined}>
-          <span className="step-number">2</span><span className="step-label">聖地・コース</span>
-        </button>
-      </nav>
-
       <main>
-        {selection ? (
-          <VerifiedSpotMap work={selection.work} spots={selection.spots} region={selection.region} onBack={backToSearch} />
-        ) : (
+        {selection ? <VerifiedSpotMap key={`${selection.work.id}/${selection.region}/${selection.options?.pin ?? ""}/${selection.options?.spots?.join(",") ?? ""}`} work={selection.work} spots={selection.spots} region={selection.region} options={selection.options} onBack={backToList} /> : null}
+        {!selection && researchSelection ? <ResearchCourse key={`${researchSelection.work.id}/${researchSelection.region}/${researchSelection.options?.pin ?? ""}/${researchSelection.options?.spots?.join(",") ?? ""}`} work={researchSelection.work} region={researchSelection.region} options={researchSelection.options} onBack={backToList} /> : null}
+        {/* 一覧・検索結果は、コース画面を開いている間も残しておき、戻ったときにそのまま見られるようにする。 */}
+        <div hidden={Boolean(selection || researchSelection)}>
           <section className="screen-section intro-section">
-            <div className="eyebrow">✦ COURSE PLANNER</div>
-            <h1>あの物語の場所から、<br /><em>まちの魅力</em>へ。</h1>
-            <p className="lead">作品を探し、確認済みの聖地を選んでまちを歩く。訪問地点間の移動に根拠がある作品では、周遊の順番と時間の目安を提案します。</p>
+            <h1><span>あの物語の場所から、</span><span><em>まちの魅力</em>へ。</span></h1>
+            <p className="lead">好きな作品の聖地と、その間で寄れる地元の味・文化スポットをつないだコースを作れます。食べたいもの・買いたいものから探すこともできます。</p>
+
+            <div className="search-mode-tabs" role="tablist" aria-label="探し方">
+              <button type="button" role="tab" aria-selected={searchMode === "works"} className={searchMode === "works" ? "is-active" : ""} onClick={() => setSearchMode("works")}>作品から探す</button>
+              <button type="button" role="tab" aria-selected={searchMode === "detours"} className={searchMode === "detours" ? "is-active" : ""} onClick={() => setSearchMode("detours")}>食・お店から探す</button>
+            </div>
+
+            {searchMode === "detours" ? <DetourSearch onOpen={(workId, region, pin) => void openWork(workId, region, { pin })} openingKey={openingKey} /> : <>
             <div className="search-panel">
               <label htmlFor="work-search">作品名や地域から探す</label>
-              <div className="search-field"><SearchIcon /><input id="work-search" type="search" placeholder="例：君の名は。、飛騨市" value={search} onChange={(event) => setSearch(event.target.value)} /></div>
+              <div className="search-controls">
+                <div className="search-field"><SearchIcon /><input id="work-search" type="search" enterKeyHint="search" autoComplete="off" placeholder="例：あまちゃん／飛騨市" value={search} onChange={(event) => setSearch(event.target.value)} /></div>
+                <div className="genre-filters" role="group" aria-label="作品の種類で絞り込み">{genreOptions.map((genre) => <button key={genre} type="button" aria-pressed={genreFilter === genre} className={genreFilter === genre ? "is-active" : ""} onClick={() => setGenreFilter(genre)}>{genre}</button>)}</div>
+              </div>
             </div>
-            <AniListLookup key={search} query={search} hasLocalMatches={matchingWorks.length > 0} onOpenMap={(work, spots, legs, region) => {
-              setSelection({ work, spots, legs, region });
-              window.scrollTo({ top: 0, behavior: "smooth" });
-            }} />
 
-            <section className="research-section" aria-label="コースに進める作品">
-              <div className="section-heading compact-heading"><div><span className="section-kicker">READY TO EXPLORE</span><h2>確認済みの作品・地域</h2><p>聖地を確認済みの作品だけを表示します。アニメ以外もここから選べます。</p></div><span className="result-count">{matchingPublished.length}作品</span></div>
-              {publishedError ? <p role="alert" className="search-empty">対応作品を取得できませんでした。時間をおいて再試行してください。</p> : null}
-              {openError ? <p role="alert" className="search-empty">{openError}</p> : null}
-              <div className="research-grid">{matchingPublished.map((work) => <article className="research-card" key={work.id}><div className="research-card-top"><span>{work.category ?? "作品"}</span><span>聖地確認済み</span></div><h3>{work.title}</h3><p><PinIcon /> 巡る地域を選択</p><div className="published-regions">{work.regions.map((region) => <button type="button" key={region} disabled={openingWorkId === work.id} onClick={() => openPublishedWork(work, region)}>{openingWorkId === work.id ? "読み込み中…" : `${region} →`}</button>)}</div></article>)}</div>
-              {!publishedError && publishedWorks.length > 0 && matchingPublished.length === 0 ? <p className="search-empty">この検索語に対応する作品・地域はありません。</p> : null}
-            </section>
+            <section className="research-section" aria-labelledby="work-list-heading">
+              <div className="list-heading">
+                <h2 id="work-list-heading">{filtering ? "検索結果" : "作品一覧"}</h2>
+                <span className="result-count" role="status">{filtering ? `${matchingWorks.length}作品` : `全${researchCatalog.works.length}作品`}</span>
+              </div>
+              {publishedStatus === "error" ? <p className="catalog-notice" role="status">現在、移動時間の計算に対応した作品を読み込めません。聖地の一覧と寄り道探しは使えます。</p> : null}
+              {openError ? <p className="inline-error" role="alert">{openError}</p> : null}
+              {matchingWorks.some((work) => publishedById.has(work.id)) ? <p className="list-legend"><span className="ready-badge">所要時間つき</span>の地域は、移動時間の目安まで計算できます。</p> : null}
 
-            <section className="research-section" aria-label="聖地リストから探す">
-              <div className="section-heading compact-heading"><div><span className="section-kicker">聖地リスト</span><h2>調査中の作品も探す</h2><p>この一覧は調査段階の資料です。コースに進める作品・地域は上の「確認済みの作品・地域」で選べます。</p></div><span className="result-count">{query ? `${matchingWorks.length}作品が一致` : `全${researchCatalog.works.length}作品`}</span></div>
-              {researchCatalog.source === "csv-preview" ? <p className="catalog-notice" role="status">現在はCSVのプレビューを表示しています。Supabaseの作品DBを読み込めないため、実コースへの照合は利用できません。</p> : null}
-              {researchCatalog.error ? <p className="search-empty" role="status">Supabaseからの読み込みに失敗しました。CSVプレビューで検索できます。</p> : null}
-              <div className="research-grid">{visibleWorks.map((work) => <article className="research-card" key={work.id}>
-                <div className="research-card-top"><span>{work.category ?? "作品"}{work.version ? `・${work.version}` : ""}</span><span>調査リスト</span></div>
-                <h3>{work.title}</h3>
-                <p><PinIcon /> {work.regions.join("、") || "地域確認中"}</p>
-                <small>CSV掲載地点 {work.spot_count}件・未確認地点はコース対象外</small>
-              </article>)}</div>
-              {!researchCatalog.error && query && matchingWorks.length === 0 ? <p className="search-empty">聖地リストに一致する作品・地域はありません。</p> : null}
-              {!query && matchingWorks.length > visibleWorks.length ? <p className="research-hint">作品名や都道府県・市区町村名を入力すると、全作品を検索できます。</p> : null}
+              {visibleWorks.length ? <div className="research-grid">{visibleWorks.map((work) => {
+                const published = publishedById.get(work.id);
+                const version = displayVersion(work.version);
+                return <article className={`research-card${published ? " is-ready" : ""}`} key={work.id}>
+                  <h3>{work.title}</h3>
+                  <p className="work-version"><span className="work-type">{workTypeLabel(work)}</span>{version ? `・${version}` : ""}</p>
+                  <div className="region-buttons">{work.regions.map((region) => {
+                    const ready = Boolean(published?.regions.includes(region));
+                    const count = ready ? published?.spotCounts?.[region] : work.region_counts[region];
+                    const key = `${work.id}/${region}`;
+                    const opening = openingKey === key;
+                    return <button type="button" key={region} className={ready ? "is-ready" : ""} disabled={Boolean(openingKey)} onClick={() => openWork(work.id, region)} aria-label={`${work.title}・${region}のコースを作る`}>
+                      <span className="region-name"><PinIcon />{region}</span>
+                      <span className="region-meta">{opening ? "読み込み中…" : <>{ready ? <span className="ready-badge">所要時間つき</span> : null}{count ? `${count}地点` : null}<span aria-hidden="true" className="region-arrow">→</span></>}</span>
+                    </button>;
+                  })}</div>
+                </article>;
+              })}</div> : null}
+
+              {filtering && matchingWorks.length === 0 ? <div className="search-empty">
+                <p><strong>{search.trim() ? `「${search.trim()}」に一致する作品・地域はまだありません。` : "この種類の作品はまだありません。"}</strong></p>
+                <p>作品名の一部だけや、市町村名で探してみてください。</p>
+                <button className="text-button" type="button" onClick={() => { setSearch(""); setGenreFilter("すべて"); }}>条件をクリアする</button>
+              </div> : null}
+              {showAniList ? <AniListLookup key={search} query={search} onOpenMap={openAniListWork} /> : null}
+
+              {!filtering && matchingWorks.length > visibleWorks.length ? <button className="more-button" type="button" onClick={() => setShowAll(true)}>すべての作品を見る（全{matchingWorks.length}作品）</button> : null}
             </section>
-            <div className="scope-note"><p><strong>コース作成について</strong><br />CSVの調査地点はそのままコースに使いません。位置・訪問条件・地点間の移動時間を確認できた作品から対応します。</p></div>
+            </>}
+            {searchMode === "detours" && openError ? <p className="inline-error" role="alert">{openError}</p> : null}
+
+            <details className="detail-disclosure scope-disclosure"><summary>コースの作り方と注意点</summary><div className="disclosure-body">
+              <p>作品と地域を選び、巡りたい聖地を最大3件選ぶと、訪問順の案を作ります。聖地の間や前後で寄れる地元の味・文化スポットは、AI（Gemini）がGoogleマップの情報から探します。</p>
+              <p><strong>所要時間つきの地域</strong>では、訪問日と使える時間から移動時間の目安も計算します。それ以外の地域では、各区間の移動をGoogleマップで確認してください。</p>
+              <p>学校・住宅地・施設の敷地には許可なく立ち入らず、出発前に公式情報とGoogleマップで確認してください。</p>
+            </div></details>
           </section>
-        )}
+        </div>
       </main>
 
-      <footer><div><Image src="/app-icon.png" alt="" width={548} height={494} /><strong>まちぽ</strong></div><p>物語とまちを、やさしくつなぐ。</p><small>確認済みの作品・地点から順次対応しています。</small></footer>
+      <footer><div><Image src="/app-icon.png" alt="" width={38} height={34} /><strong>まちぽ</strong></div><p>物語とまちを、やさしくつなぐ。</p><small>訪問前に各施設の公式情報と当日の経路をご確認ください。</small></footer>
     </div>
   );
 }

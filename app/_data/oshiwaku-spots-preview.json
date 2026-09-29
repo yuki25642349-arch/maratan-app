@@ -1,0 +1,112 @@
+[
+  {
+    "id": "oshi_sp-57ba141a",
+    "workId": "w_395a92281c2f9a",
+    "name": "金沢湯涌夢二館",
+    "region": "石川県・金沢市",
+    "granularity": "地点",
+    "relationship": "聖地巡礼候補",
+    "sourceUrl": "https://www.hot-ishikawa.jp/blog/detail_297.html",
+    "listingUrl": "https://oshiwaku.net/seichi/sp-57ba141a",
+    "sourceStage": "推しワク掲載・現地未確認"
+  },
+  {
+    "id": "oshi_sp-2f53402b",
+    "workId": "w_395a92281c2f9a",
+    "name": "湯涌稲荷神社",
+    "region": "石川県・金沢市",
+    "granularity": "地点",
+    "relationship": "聖地巡礼候補",
+    "sourceUrl": "https://www.hot-ishikawa.jp/blog/detail_297.html",
+    "listingUrl": "https://oshiwaku.net/seichi/sp-2f53402b",
+    "sourceStage": "推しワク掲載・現地未確認"
+  },
+  {
+    "id": "oshi_sp-04b9ea2b",
+    "workId": "w_57c71c259d1a53",
+    "name": "鷲宮郵便局",
+    "region": "埼玉県・久喜市",
+    "granularity": "地点",
+    "relationship": "聖地巡礼候補",
+    "sourceUrl": "https://www.city.kuki.lg.jp/miryoku/anime_character/1006013.html",
+    "listingUrl": "https://oshiwaku.net/seichi/sp-04b9ea2b",
+    "sourceStage": "推しワク掲載・現地未確認"
+  },
+  {
+    "id": "oshi_sp-6df42521",
+    "workId": "w_19a5085e2bf441",
+    "name": "JR岩舟駅",
+    "region": "栃木県・栃木市",
+    "granularity": "地点",
+    "relationship": "聖地巡礼候補",
+    "sourceUrl": "https://animetourism88.com/en/places/5-centimeters-per-second/",
+    "listingUrl": "https://oshiwaku.net/seichi/sp-6df42521",
+    "sourceStage": "推しワク掲載・現地未確認"
+  },
+  {
+    "id": "oshi_sp-858565a6",
+    "workId": "w_260ac5bdef91d7",
+    "name": "海野町商店街",
+    "region": "長野県・上田市",
+    "granularity": "地点",
+    "relationship": "聖地巡礼候補",
+    "sourceUrl": "https://nagano-ueda.gr.jp/archive/s-wars/guidemap.html",
+    "listingUrl": "https://oshiwaku.net/seichi/sp-858565a6",
+    "sourceStage": "推しワク掲載・現地未確認"
+  },
+  {
+    "id": "oshi_sp-a7815803",
+    "workId": "w_260ac5bdef91d7",
+    "name": "上田市観光会館",
+    "region": "長野県・上田市",
+    "granularity": "地点",
+    "relationship": "聖地巡礼候補",
+    "sourceUrl": "https://nagano-ueda.gr.jp/archive/s-wars/guidemap.html",
+    "listingUrl": "https://oshiwaku.net/seichi/sp-a7815803",
+    "sourceStage": "推しワク掲載・現地未確認"
+  },
+  {
+    "id": "oshi_sp-bfb98773",
+    "workId": "w_260ac5bdef91d7",
+    "name": "眞田神社",
+    "region": "長野県・上田市",
+    "granularity": "地点",
+    "relationship": "聖地巡礼候補",
+    "sourceUrl": "https://ueda-kanko.or.jp/spot/sanadajinjya/",
+    "listingUrl": "https://oshiwaku.net/seichi/sp-bfb98773",
+    "sourceStage": "推しワク掲載・現地未確認"
+  },
+  {
+    "id": "oshi_sp-7316a4a0",
+    "workId": "w_260ac5bdef91d7",
+    "name": "上田城跡公園",
+    "region": "長野県・上田市",
+    "granularity": "地点",
+    "relationship": "聖地巡礼候補",
+    "sourceUrl": "https://ueda-kanko.or.jp/spot/uedajoseki_park/",
+    "listingUrl": "https://oshiwaku.net/seichi/sp-7316a4a0",
+    "sourceStage": "推しワク掲載・現地未確認"
+  },
+  {
+    "id": "oshi_sp-93ca7006",
+    "workId": "w_acbf524039d3e2",
+    "name": "宮川町落合バス停",
+    "region": "岐阜県・飛騨市",
+    "granularity": "地点",
+    "relationship": "聖地巡礼候補",
+    "sourceUrl": "https://www.hida-kankou.jp/courses/8",
+    "listingUrl": "https://oshiwaku.net/seichi/sp-93ca7006",
+    "sourceStage": "推しワク掲載・現地未確認"
+  },
+  {
+    "id": "oshi_sp-d055526f",
+    "workId": "w_acbf524039d3e2",
+    "name": "気多若宮神社",
+    "region": "岐阜県・飛騨市",
+    "granularity": "地点",
+    "relationship": "聖地巡礼候補",
+    "sourceUrl": "https://www.hida-kankou.jp/courses/8",
+    "listingUrl": "https://oshiwaku.net/seichi/sp-d055526f",
+    "sourceStage": "推しワク掲載・現地未確認"
+  }
+]
